@@ -1,0 +1,141 @@
+@media (max-width:1240px) {
+    .btn {
+        font-size: 14px;
+        padding: 15px 50px;
+    }
+
+    .btn-green {
+        flex: 20px;
+    }
+
+    .link {
+        font-size: 17px;
+    }
+
+    .footer-phone-link {
+        font-size: 35px;
+    }
+    
+    .footer-email-link {
+        font-size: 30px;
+    }
+
+    .false-phone-link {
+        display: none;
+        // margin-right: 25px;
+        // margin-left: 25px;
+        // width: 40px;
+        // height: 40px;
+        // & svg {
+        //     width: 100%;
+        //     height: 100%;
+        // }
+    }
+    .phone-link {
+        display: flex;
+    }
+
+    .head {
+        padding: 21px 48px 20px;
+        justify-content: normal;
+        gap: 25px;
+        &__left {
+            width: 50%;
+            flex-grow: 0;
+        }
+
+        &_logo {
+            width: 145px;
+        }
+        &__nav {
+            &_list {
+                display: none;
+            }
+        }
+        &
+        &__right {
+            margin-left: auto;
+        }
+    }
+    .foot {
+        padding: 60px 48px 60px;
+        // &__logo {
+        //     width: 175px;
+        // }
+
+        &__top {
+            padding-bottom: 60px;
+        }
+
+        &__bottom {
+            padding-top: 60px;
+
+            &_list {
+                max-height: 320px;
+                align-content: space-between;
+            }
+            &_scroll {
+                position: fixed;
+                right: 48px;
+                bottom: 55px;
+                z-index: 101;
+                background: rgba($color: #000000, $alpha: 0.2);
+                border-radius: 50%;
+                backdrop-filter: blur(2px);
+            }
+        }
+
+        &__contacts {
+            order: 1;
+            &_scls {
+                order: 2;
+            }
+        }
+
+        
+    }
+    .fs {
+        min-height: 680px;
+        max-height: 750px;
+        &__slider {
+            & .swiper-pagination-bullet {
+                height: 33px;
+            }
+            &_pagination {
+                top: 97px !important;
+                left: 48px !important;
+            }
+        }
+        &__slide {
+
+            &_title {
+                padding: 1px 0 90px 48px;
+               
+            }
+            &_content {
+                & h1 {
+                    font-size: 54px;
+                    line-height: normal;
+                    margin-top: 105px;
+                }
+            }
+            &_text p {
+                font-size: 14px;
+            }
+
+            &_decor {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .foot {
+        &__nav {
+            &_list {
+                justify-content: center;
+            }
+        }
+    }
+}

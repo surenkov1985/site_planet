@@ -1,0 +1,116 @@
+@media (max-width: 1240px) {
+  .btn {
+    font-size: 14px;
+    padding: 15px 50px;
+  }
+  .btn-green {
+    -webkit-box-flex: 20px;
+        -ms-flex: 20px;
+            flex: 20px;
+  }
+  .link {
+    font-size: 17px;
+  }
+  .footer-phone-link {
+    font-size: 35px;
+  }
+  .footer-email-link {
+    font-size: 30px;
+  }
+  .false-phone-link {
+    display: none;
+  }
+  .phone-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .head {
+    padding: 21px 48px 20px;
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+    gap: 25px;
+  }
+  .head__left {
+    width: 50%;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .head_logo {
+    width: 145px;
+  }
+  .head__nav_list {
+    display: none;
+  }
+  .head .head__right {
+    margin-left: auto;
+  }
+  .foot {
+    padding: 60px 48px 60px;
+  }
+  .foot__top {
+    padding-bottom: 60px;
+  }
+  .foot__bottom {
+    padding-top: 60px;
+  }
+  .foot__bottom_list {
+    max-height: 320px;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .foot__bottom_scroll {
+    position: fixed;
+    right: 48px;
+    bottom: 55px;
+    z-index: 101;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+  .foot__contacts {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .foot__contacts_scls {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .fs {
+    min-height: 680px;
+    max-height: 750px;
+  }
+  .fs__slider .swiper-pagination-bullet {
+    height: 33px;
+  }
+  .fs__slider_pagination {
+    top: 97px !important;
+    left: 48px !important;
+  }
+  .fs__slide_title {
+    padding: 1px 0 90px 48px;
+  }
+  .fs__slide_content h1 {
+    font-size: 54px;
+    line-height: normal;
+    margin-top: 105px;
+  }
+  .fs__slide_text p {
+    font-size: 14px;
+  }
+  .fs__slide_decor {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .foot__nav_list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
