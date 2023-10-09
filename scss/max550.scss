@@ -1,0 +1,51 @@
+@media (max-width: 550px) {
+    .head {
+        &__bottom {
+            flex-direction: column;
+        }
+    }
+
+    .fs {
+        min-height: 750px;
+        &__slide {
+
+            &_title {
+                padding: 1px 20px 55px;
+                width: 100%;
+                border-right: none;
+            }
+
+            &_text {
+                width: 100%;
+                border: none;
+                padding: 24px 20px 54px;
+            }
+
+            &_content {
+                & h1 {
+                    margin-top: 195px;
+                    font-size: 45px;
+
+                    & .line:nth-child(1) {
+                        margin-left: 0px;
+                        white-space: nowrap;
+                    }
+                    & .line:nth-child(3) {
+                        margin-left: 0px;
+                        white-space: nowrap;
+                    }
+                    & .line:nth-child(5) {
+                        margin-left: 0px;
+                        white-space: initial;
+                    }
+                }
+            }
+        }
+
+        &__slider {
+            &_pagination {
+                top: 85px !important;
+            }
+        }
+    }
+}
