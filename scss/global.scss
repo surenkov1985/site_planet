@@ -120,3 +120,23 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+
+.dark-text {
+    color: var(--dark-color);
+}
+
+.white-text {
+    color: var(--white-color);
+}
+
+.green-text {
+    color: var(--main-green-color);
+}
+
+.h2 {
+    font-family: var(--title-font);
+    font-size: 80px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}

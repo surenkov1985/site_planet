@@ -170,13 +170,29 @@ body {
   height: 100%;
   min-height: 100vh;
   font-family: var(--main-font);
+  color: var(--dark-color);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
 }
 
+.container {
+  width: 100%;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
 .swiper-vertical {
   -ms-touch-action: auto !important;
       touch-action: auto !important;
+}
+
+.section-green {
+  background: var(--main-green-color);
+}
+
+.text-center {
+  text-align: center;
 }

@@ -57,6 +57,7 @@
 .foot {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../img/footer-bg.png"), lightgray 50% / cover no-repeat;
     padding: 88px 64px 72px;
+    margin-top: var(--gap);
 
     &__top {
         padding-bottom: 88px;

@@ -71,8 +71,8 @@
     max-height: 1000px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: c;
-            flex-direction: c;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .foot__bottom_recall {
     -webkit-box-ordinal-group: 4;
