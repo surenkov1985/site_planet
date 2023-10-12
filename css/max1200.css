@@ -1,4 +1,14 @@
 @media (max-width: 1240px) {
+  .container {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  :root {
+    --gap: 100px;
+  }
+  .h2 {
+    font-size: 44px;
+  }
   .btn {
     font-size: 14px;
     padding: 15px 50px;
@@ -106,11 +116,137 @@
   .fs__slide_decor {
     width: 50%;
   }
+  .field__card_title {
+    font-size: 18px;
+    padding: 18px 16px;
+    height: 70px;
+  }
+  .partners__slide {
+    padding: 48px 28px 44px;
+    font-size: 14px;
+  }
+  .partners__slide img {
+    width: 135px;
+  }
 }
 @media (max-width: 1200px) {
+  .h2 {
+    font-size: 40px;
+  }
+  .h3 {
+    font-size: 30px;
+  }
   .foot__nav_list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .present__row {
+    width: 100%;
+    max-width: 800px;
+  }
+  .present__text {
+    width: 45%;
+  }
+  .present__text p {
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .consultants__foot {
+    display: none;
+  }
+  .consultants__head .col button {
+    width: 118px;
+    height: 118px;
+  }
+  .advantages__list {
+    width: 40.9482758621%;
+  }
+  .advantages__img {
+    width: 45.7974137931%;
+  }
+  .advantages__item {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .field {
+    padding-top: 60px;
+    padding-bottom: 105px;
+  }
+  .field .h2 {
+    margin-bottom: 20px;
+  }
+  .field .subtitle {
+    font-size: 14px;
+    margin-bottom: 45px;
+  }
+  .field__cards {
+    gap: 13px;
+  }
+  .field__card_title {
+    font-size: 16px;
+    padding: 16px 12px;
+    height: 60px;
+  }
+  .training__text {
+    font-size: 20px;
+  }
+  .training__text_border {
+    padding-bottom: 0px;
+  }
+  .training__more {
+    margin-top: 20px;
+  }
+  .training__more_link {
+    font-size: 14px;
+  }
+  .training__more_link svg {
+    width: 45px;
+    height: 45px;
+  }
+  .how-work__row {
+    width: 100%;
+  }
+  .how-work__row_title {
+    padding-left: 48px;
+  }
+  .how-work__row_list {
+    gap: 10px;
+  }
+  .how-work__row_list li {
+    font-size: 14px;
+  }
+  .presentation .h3 {
+    margin-bottom: 20px;
+  }
+  .presentation__container {
+    padding: 50px 42px 50px;
+  }
+  .presentation_circle {
+    -webkit-transform: translateX(25%) translateY(26%);
+            transform: translateX(25%) translateY(26%);
+  }
+  .presentation__img {
+    bottom: 20px;
+  }
+  .presentation .subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .feedback__content {
+    padding: 60px 74px 60px;
+    border-radius: 15px;
+  }
+  .feedback__form_fields {
+    gap: 10px;
+  }
+  .feedback__form_label input, .feedback__form_label textarea {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+  .feedback__form_agree {
+    font-size: 13px;
   }
 }

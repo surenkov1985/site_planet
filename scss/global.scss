@@ -11,7 +11,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: all var(--transition-duration);
-    flex-direction: column;
+    // flex-direction: column;
 }
 
 .btn-green {
@@ -138,5 +138,12 @@
     font-size: 80px;
     font-weight: 600;
     line-height: normal;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-family: var(--title-font);
+    font-size: 50px;
+    font-weight: 600;
     text-transform: uppercase;
 }

@@ -1,23 +1,87 @@
-@media (max-height: 850px) {
-  .fs {
-    min-height: 800px;
-  }
-  .fs__slider_pagination {
-    top: 140px !important;
-  }
-  .fs__slide_title {
-    padding: 25px 0 0 64px;
-  }
-}
 @media (max-width: 1650px) {
+  .h3 {
+    font-size: 48px;
+  }
   .head__left {
     gap: 50px;
   }
   .head__nav_list {
     gap: 30px;
   }
+  .present__text p {
+    font-size: 20px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+  .consultants__slider {
+    overflow: hidden;
+  }
+  .consultants__slide_img {
+    width: 170px;
+  }
+  .consultants__slide_contacts p {
+    font-size: 18px;
+  }
+  .consultants__head .col button {
+    width: 200px;
+  }
+  .advantages__item {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .field {
+    padding-top: 120px;
+    padding-bottom: 140px;
+  }
+  .field__card_title {
+    font-size: 26px;
+    height: 120px;
+  }
+  .training__text {
+    font-size: 36px;
+  }
+  .training__more {
+    margin-top: 50px;
+  }
+  .training__more_link {
+    font-size: 22px;
+  }
+  .training__more_link svg {
+    width: 70px;
+    height: 70px;
+  }
+  .how-work__row_list li {
+    font-size: 20px;
+  }
+  .partners__slide {
+    padding: 80px 68px 70px;
+  }
+  .presentation__container {
+    padding: 62px 57px 70px;
+  }
+  .presentation .subtitle {
+    font-size: 20px;
+    margin-bottom: 38px;
+  }
+  .feedback__content {
+    padding: 97px 120px 60px;
+  }
+  .feedback__form_label input, .feedback__form_label textarea {
+    padding: 19px 22px;
+    font-size: 18px;
+  }
+  .feedback__form_agree {
+    font-size: 17px;
+  }
 }
 @media (max-width: 1550px) {
+  .h2 {
+    font-size: 70px;
+  }
+  .h3 {
+    font-size: 42px;
+  }
   .link {
     font-size: 18px;
   }
@@ -39,8 +103,64 @@
   .fs__slide_text p {
     font-size: 18px;
   }
+  .present__text p {
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .field {
+    padding-top: 110px;
+    padding-bottom: 130px;
+  }
+  .field__card_title {
+    font-size: 24px;
+    padding: 25px 22px;
+    height: 100px;
+  }
+  .training__text {
+    font-size: 30px;
+  }
+  .training__more {
+    margin-top: 40px;
+  }
+  .training__more_link {
+    font-size: 20px;
+  }
+  .training__more_link svg {
+    width: 60px;
+    height: 60px;
+  }
+  .how-work__row_list li {
+    font-size: 18px;
+  }
+  .partners__slide {
+    padding: 70px 60px 60px;
+  }
+  .presentation__container {
+    padding: 50px 52px 60px;
+  }
+  .presentation .subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .feedback__content {
+    padding: 87px 100px 60px;
+  }
+  .feedback__form_label input, .feedback__form_label textarea {
+    padding: 16px 22px;
+    font-size: 17px;
+  }
+  .feedback__form_agree {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1440px) {
+  .h2 {
+    font-size: 60px;
+  }
+  .h3 {
+    font-size: 36px;
+  }
   .btn {
     font-size: 16px;
   }
@@ -82,5 +202,105 @@
   }
   .fs__slide_text p {
     font-size: 16px;
+  }
+  .present__text p {
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .consultants__slider {
+    overflow: hidden;
+  }
+  .consultants__slide_img {
+    width: 150px;
+  }
+  .consultants__slide_contacts p {
+    font-size: 16px;
+  }
+  .consultants__slide_name {
+    font-size: 22px;
+  }
+  .consultants__slide_role {
+    font-size: 18px;
+  }
+  .consultants__head .col button {
+    width: 150px;
+    height: 150px;
+  }
+  .advantages__list {
+    width: 40%;
+  }
+  .advantages__img {
+    width: 50%;
+  }
+  .advantages__item {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .field {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+  .field__cards {
+    gap: 20px;
+  }
+  .field__card_title {
+    font-size: 20px;
+    padding: 20px 18px;
+    height: 80px;
+  }
+  .training__text {
+    font-size: 26px;
+  }
+  .training__text_border {
+    padding-bottom: 5px;
+  }
+  .training__more {
+    margin-top: 30px;
+  }
+  .training__more_link {
+    font-size: 18px;
+  }
+  .training__more_link svg {
+    width: 55px;
+    height: 55px;
+  }
+  .how-work__row_list li {
+    font-size: 16px;
+  }
+  .partners__slide {
+    padding: 60px 40px 50px;
+  }
+  .presentation__container {
+    padding: 50px 48px 50px;
+  }
+  .presentation__img {
+    width: 60.3794642857%;
+  }
+  .presentation__content {
+    width: 41.8526785714%;
+  }
+  .presentation .subtitle {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .feedback__content {
+    padding: 75px 80px 60px;
+  }
+  .feedback__form_label {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .feedback__form_label input, .feedback__form_label textarea {
+    width: 100%;
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  .feedback__form_agree {
+    font-size: 15px;
   }
 }

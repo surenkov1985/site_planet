@@ -1,4 +1,48 @@
+@media (max-width: 650px) {
+    .training {
+
+        & .container {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+        &__text {
+            font-size: 22px;
+            width: 100%;
+        }
+
+        &__more {
+            margin-top: 30px;
+
+            &_link {
+                font-size: 16px;
+
+                & svg {
+                    width: 52px;
+                    height: 52px;
+                }
+            }
+        }
+
+        &__img {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            isolation: isolate;
+        }
+    }
+}
+
 @media (max-width: 550px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    :root {
+        --gap: 50px;
+    }
 
     .foot {
         padding: 40px 20px;
@@ -74,9 +118,167 @@
             }
         }
     }
+
+    .present {
+
+        &__images {
+            width: 80%;
+            max-height: 3000px;
+
+            &_item {
+
+                &.item-1 {
+                    margin-left: 40px;
+                }
+
+                &.item-2 {
+                    margin-left: 100px;
+                }
+                &.item-3 {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        &__text {
+            width: 100%;
+            & p {
+                font-size: 16px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .consultants {
+
+        &__head {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+
+            &_title {
+                gap: 30px;
+            }
+
+            &_contacts {
+                gap: 10px 40px;
+                flex-wrap: wrap;
+            }
+
+            & .col button {
+                width: 160px;
+                height: 160px;
+            }
+        }
+    }
+
+    .field {
+        padding-top: 35px;
+        padding-bottom: 70px;
+        &__cards {
+            gap: 13px;
+    
+        }
+        &__card {
+            width: 100%;
+            &_title {
+                font-size: 20px;
+                padding: 16px 12px;
+                height: 70px;
+            }
+        }
+    }
+
+    .presentation {
+
+        &__container {
+            padding: 56px 20px 320px;
+        }
+
+        &__content {
+            width: 100%;
+           
+            // min-height: 560px;
+
+            &_bottom {
+                & .btn {
+                    & svg {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    
+
+                }
+            }
+        }
+
+        &_circle {
+            width: 500px;
+            padding-bottom: 0;
+            height: 500px;
+            top: 260px;
+            left: 20%;
+            transform: translateX(0%) translateY(0%);
+        }
+
+        &__img {
+            width: 140%;
+            left: 40%;
+            bottom: 30px;
+            transform: translate(-50%);
+        }
+    }
+
+    .feedback {
+        &__content {
+            border-radius: 10px;
+            padding: 48px 20px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 27.75%, rgba(0, 0, 0, 0.00) 99.99%), url(../img/feegback.png), lightgray -20px -246.5px / 460.668% 182.056% no-repeat;
+    
+            &_form {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    
+        &__form {
+
+            &_fields {
+                width: 100%;
+            }
+    
+            &_label {
+    
+                & input, & textarea {
+                    font-size: 16px;
+                }
+            }
+    
+            &_agree {
+                font-size: 14px;
+            }
+
+            & .btn {
+                width: 100%;
+            }
+        }
+    }
+
+    .form__content {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 420px) {
+
+    :root {
+        gap: 30px;
+    }
+
+    .h2 {
+        font-size: 30px;
+    }
 
     .footer-phone-link {
         font-size: 30px;
@@ -141,5 +343,170 @@
             }
         }
 
+    }
+    .present {
+
+        &__row {
+            gap: 40px;
+        }
+
+        &__images {
+            width: 80%;
+            max-height: 3000px;
+
+            &_item {
+
+                &.item-1 {
+                    margin-left: 30px;
+                    top: 32px;
+                }
+
+                &.item-2 {
+                    margin-left: 80px;
+                }
+                &.item-3 {
+                    margin-left: 20px;
+                    bottom: 28px;
+                }
+            }
+        }
+    }
+
+    .consultants {
+
+        &__head {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+
+            &_title {
+                gap: 20px;
+            }
+            &_contacts {
+                gap: 10px 40px;
+                flex-wrap: wrap;
+            }
+
+            & .col button {
+                width: 140px;
+                height: 140px;
+            }
+        }
+    }
+
+    .advantages {
+        & .container {
+            gap: 30px;
+        }
+    }
+
+    .field {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+        & .subtitle {
+            margin-bottom: 25px;
+        }
+    }
+
+    .training {
+
+        & .container {
+            gap: 30px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+
+        &__more {
+            margin-top: 20px;
+
+            &_link {
+                font-size: 16px;
+
+                & svg {
+                    width: 52px;
+                    height: 52px;
+                }
+            }
+        }
+
+        &__img {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            isolation: isolate;
+        }
+    }
+
+    .how-work {
+        &__row {
+            gap: 25px;
+            &_list {
+                padding-left: 18px;
+                gap: 10px;
+                & li {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .presentation {
+
+        &__container {
+            padding: 36px 15px 320px;
+        }
+
+        &__content {
+
+            &_bottom {
+                & .btn {
+                    & svg {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    
+
+                }
+            }
+        }
+
+        &_circle {
+            width: 500px;
+            padding-bottom: 0;
+            height: 500px;
+            top: 260px;
+            left: 20%;
+            transform: translateX(0%) translateY(0%);
+        }
+
+        &__img {
+            width: 160%;
+            left: 40%;
+            bottom: 30px;
+            transform: translate(-50%);
+        }
+    }
+
+    .feedback {
+
+        &__content {
+            padding: 30px 20px;
+        }
+    
+        &__form {
+    
+            &_label {
+    
+                & input, & textarea {
+                    border-radius: 20px;
+                }
+            }
+    
+            &_agree {
+                font-size: 13px;
+            }
+        }
     }
 }

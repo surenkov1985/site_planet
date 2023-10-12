@@ -1,21 +1,8 @@
-@media (max-height: 850px) {
-    .fs {
-        min-height: 800px;
-        &__slider {
-            &_pagination {
-                top: 140px !important;
-            }
-        }
-        &__slide {
-            &_title {
-                padding: 25px 0 0 64px;
-               
-            }
-        }
-    }
-}
-
 @media (max-width: 1650px) {
+
+    .h3 {
+        font-size: 48px;
+    }
     .head {
         &__left {
             gap: 50px;
@@ -27,9 +14,142 @@
             }
         }
     }
+
+    .present {
+
+        &__text {
+            & p {
+                font-size: 20px;
+                padding-top: 55px;
+                padding-bottom: 55px;
+            }
+        }
+    }
+
+    .consultants {
+        &__slider {
+            overflow: hidden;
+        }
+
+        &__slide {
+            &_img {
+                width: 170px;
+            }
+
+            &_contacts p {
+                font-size: 18px;
+            }
+        }
+
+        &__head {
+            & .col button {
+                width: 200px;
+            }
+        }
+    }
+
+    .advantages {
+        &__item {
+            font-size: 24px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .field {
+        padding-top: 120px;
+        padding-bottom: 140px;
+
+        &__card {
+            &_title {
+                font-size: 26px;
+                height: 120px;
+            }
+        }
+    }
+
+    .training {
+        &__text {
+            font-size: 36px;
+        }
+
+        &__more {
+            margin-top: 50px;
+
+            &_link {
+                font-size: 22px;
+
+                & svg {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+
+    .how-work {
+        &__row {
+            &_list {
+                & li {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .partners {
+        &__slide {
+            padding: 80px 68px 70px;
+        }
+    }
+
+    .presentation {
+
+        &__container {
+            padding: 62px 57px 70px;
+        }
+
+        & .subtitle {
+            font-size: 20px;
+            margin-bottom: 38px;
+        }
+    }
+
+    .feedback {
+
+        &__content {
+            padding: 97px 120px 60px;
+        }
+    
+        &__form {
+    
+            &_fields {
+            }
+    
+            &_label {
+    
+                & input, & textarea {
+                    padding: 19px 22px;
+                    font-size: 18px;
+                }
+            }
+    
+            &_agree {
+                font-size: 17px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1550px) {
+    .h2 {
+        font-size: 70px;
+    }
+
+    .h3 {
+        font-size: 42px;
+    }
+
     .link {
         font-size: 18px;
     }
@@ -69,8 +189,109 @@
             }
         }
     }
+
+    .present {
+
+        &__text {
+            & p {
+                font-size: 18px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
+    }
+
+    .field {
+        padding-top: 110px;
+        padding-bottom: 130px;
+
+        &__card {
+            &_title {
+                font-size: 24px;
+                padding: 25px 22px;
+                height: 100px;
+            }
+        }
+    }
+
+    .training {
+        &__text {
+            font-size: 30px;
+        }
+        &__more {
+            margin-top: 40px;
+
+            &_link {
+                font-size: 20px;
+
+                & svg {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
+    .how-work {
+        &__row {
+            &_list {
+                & li {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .partners {
+        &__slide {
+            padding: 70px 60px 60px;
+        }
+    }
+
+    .presentation {
+
+        &__container {
+            padding: 50px 52px 60px;
+        }
+
+        & .subtitle {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .feedback {
+
+        &__content {
+            padding: 87px 100px 60px;
+        }
+    
+        &__form {
+    
+            &_label {
+    
+                & input, & textarea {
+                    padding: 16px 22px;
+                    font-size: 17px;
+                }
+            }
+    
+            &_agree {
+                font-size: 16px;
+            }
+        }
+    }
 }
 @media (max-width: 1440px) {
+
+    .h2 {
+        font-size: 60px;
+    }
+
+    .h3 {
+        font-size: 36px;
+    }
 
     .btn {
         font-size: 16px;
@@ -119,6 +340,166 @@
             }
             &_text p {
                 font-size: 16px;
+            }
+        }
+    }
+
+    .present {
+
+        &__text {
+            & p {
+                font-size: 16px;
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
+        }
+    }
+
+    .consultants {
+        &__slider {
+            overflow: hidden;
+        }
+
+        &__slide {
+            &_img {
+                width: 150px;
+            }
+
+            &_contacts p {
+                font-size: 16px;
+            }
+
+            &_name {
+                font-size: 22px;
+            }
+
+            &_role {
+                font-size: 18px;
+            }
+        }
+
+        &__head {
+            & .col button {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+    .advantages {
+
+        &__list {
+            width: 40%;
+        }
+
+        &__img {
+            width: 50%;
+        }
+        &__item {
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+
+    .field {
+        padding-top: 80px;
+        padding-bottom: 120px;
+
+        &__cards {
+            gap: 20px;
+    
+        }
+        &__card {
+            &_title {
+                font-size: 20px;
+                padding: 20px 18px;
+                height: 80px;
+            }
+        }
+    }
+
+    .training {
+        &__text {
+            font-size: 26px;
+
+            &_border {
+                padding-bottom: 5px;
+            }
+        }
+        
+        &__more {
+            margin-top: 30px;
+
+            &_link {
+                font-size: 18px;
+
+                & svg {
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+
+    .how-work {
+        &__row {
+            &_list {
+                & li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .partners {
+        &__slide {
+            padding: 60px 40px 50px;
+        }
+    }
+
+    .presentation {
+
+        &__container {
+            padding: 50px 48px 50px;
+        }
+
+        &__img {
+            width: calc(1082 / 1792 * 100%);
+        }
+
+        &__content {
+            width: calc(750 / 1792 * 100%);
+        }
+
+        & .subtitle {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .feedback {
+
+        &__content {
+            padding: 75px 80px 60px;
+        }
+    
+        &__form {
+    
+            &_label {
+                width: 100%;
+                display: flex;
+    
+                & input, & textarea {
+                    width: 100%;
+                    padding: 14px 22px;
+                    border-radius: 30px;
+                    font-size: 16px;
+                }
+            }
+    
+            &_agree {
+                font-size: 15px;
             }
         }
     }
