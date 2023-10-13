@@ -98,6 +98,18 @@
     }
 }
 
+.dark-link {
+    color: #201C26;
+    font-family: var(--title-font);
+    font-size: 30px;
+    font-weight: 500;
+    transition: all var(--transition-duration);
+
+    &:hover {
+        color: var(--main-green-color);
+    }
+}
+
 .footer-phone-link {
     font-size: 35px;
 }
@@ -146,4 +158,8 @@
     font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.no-scroll {
+    overflow: hidden;
 }

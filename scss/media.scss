@@ -15,6 +15,35 @@
         }
     }
 
+    .mobile {
+        &__nav {
+            &_top, &_center, &_bottom {
+                & ul{
+                    & li a {
+                    font-size: 36px;
+                }
+                & li button  {
+                    font-size: 36px;
+                }
+            }
+
+            &_top {
+
+                & ul{
+                    gap: 15px 55px;
+                    & li a {
+                    padding-right: 30px;
+                    }
+                    &:hover {
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+            }
+        }
+    }
+
     .present {
 
         &__text {

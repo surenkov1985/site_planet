@@ -1,19 +1,4 @@
-@media (max-height: 850px) {
-    .fs {
-        min-height: 800px;
-        &__slider {
-            &_pagination {
-                top: 140px !important;
-            }
-        }
-        &__slide {
-            &_title {
-                padding: 25px 1px 80px 64px;
-               
-            }
-        }
-    }
-}
+
 
 @media (max-width: 850px) {
     .advantages {
@@ -71,6 +56,26 @@
         }
         &__feedback {
             display: none;
+        }
+
+        &-fixed {
+            & .head__bottom {
+                display: none;
+            }
+
+            & .head__center {
+                margin-left: auto;
+            }
+
+            & .head__right {
+                margin-left: 0;
+            }
+
+            & .false-phone-link {
+                display: flex;
+                margin-left: auto;
+                margin-right: 0;
+            }
         }
 
         &__bottom {

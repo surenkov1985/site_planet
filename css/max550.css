@@ -390,6 +390,17 @@
     font-size: 13px;
   }
 }
+@media (max-height: 850px) {
+  .fs {
+    min-height: 850px;
+  }
+  .fs__slider_pagination {
+    top: 140px !important;
+  }
+  .fs__slide_title {
+    padding: 25px 1px 40px 64px;
+  }
+}
 @media (max-height: 850px) and (max-width: 1200px) {
   .fs {
     min-height: 650px;
@@ -403,7 +414,7 @@
 }
 @media (max-height: 850px) and (max-width: 991px) {
   .fs {
-    min-height: 700px;
+    min-height: 650px;
   }
   .fs__slide_content h1 {
     margin-top: 120px;

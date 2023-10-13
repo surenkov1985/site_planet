@@ -557,6 +557,23 @@
     }
 }
 
+@media (max-height: 850px) {
+    .fs {
+        min-height: 850px;
+        &__slider {
+            &_pagination {
+                top: 140px !important;
+            }
+        }
+        &__slide {
+            &_title {
+                padding: 25px 1px 40px 64px;
+               
+            }
+        }
+    }
+}
+
 @media (max-height: 850px) and (max-width: 1200px) {
     .fs {
         min-height: 650px;
@@ -576,7 +593,7 @@
 
 @media (max-height: 850px) and (max-width: 991px) {
     .fs {
-        min-height: 700px;
+        min-height: 650px;
         // &__slider {
         //     &_pagination {
         //         top: 140px !important;

@@ -8,6 +8,22 @@
   .head__nav_list {
     gap: 30px;
   }
+  .mobile__nav_top ul li a, .mobile__nav_center ul li a, .mobile__nav_bottom ul li a {
+    font-size: 36px;
+  }
+  .mobile__nav_top ul li button, .mobile__nav_center ul li button, .mobile__nav_bottom ul li button {
+    font-size: 36px;
+  }
+  .mobile__nav_top_top ul, .mobile__nav_center_top ul, .mobile__nav_bottom_top ul {
+    gap: 15px 55px;
+  }
+  .mobile__nav_top_top ul li a, .mobile__nav_center_top ul li a, .mobile__nav_bottom_top ul li a {
+    padding-right: 30px;
+  }
+  .mobile__nav_top_top ul:hover, .mobile__nav_center_top ul:hover, .mobile__nav_bottom_top ul:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .present__text p {
     font-size: 20px;
     padding-top: 55px;
