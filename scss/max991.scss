@@ -193,4 +193,26 @@
             }
         }
     }
+
+    .news {
+
+        &__slide {
+
+            &_title {
+                font-size: 18px;
+            }
+
+            &_text {
+                font-size: 16px;
+            }
+
+            &_content {
+                min-height: 200px;
+            }
+
+            &_bottom {
+                font-size: 13px;
+            }
+        }
+    }
 }

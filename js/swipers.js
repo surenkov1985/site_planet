@@ -94,14 +94,41 @@ function newsSlider () {
         loop: false,
         rewind: true,
         speed: 700,
-        slidesPerView: 3.5,
-        spaceBetween: 50,
+        slidesPerView: 1.1,
+        spaceBetween: 20,
         // allowTouchMove: false,
         mousewheel:false,
-        // If we need pagination
         pagination: {
             el: '.news__slider_pagination',
             clickable:true
         },
+        breakpoints: {
+            400:{
+                slidesPerView: 1.2,
+                spaceBetween: 30,
+                
+            },
+            550:{
+                slidesPerView: 1.8,
+                spaceBetween: 30,
+                
+            },
+            768:{
+                slidesPerView: 2.2,
+                spaceBetween: 30
+            },
+            991:{
+                slidesPerView: 2.9,
+                spaceBetween: 30
+            },
+            1024: {
+                slidesPerView: 3.5,
+                spaceBetween: 40
+            },
+            1200: {
+                slidesPerView: 3.5,
+                spaceBetween: 50
+            }
+        }
     });
 }

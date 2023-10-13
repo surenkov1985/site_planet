@@ -776,6 +776,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 16px;
 }
 .news__slide_link {
   -webkit-box-align: center;

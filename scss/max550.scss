@@ -268,6 +268,29 @@
     .form__content {
         gap: 20px;
     }
+
+    .news {
+        &__slider {
+            &_pagination {
+                display: none;
+            }
+        }
+
+        &__slide {
+
+            &_title {
+                font-size: 22px;
+            }
+
+            &_content {
+                min-height: 220px;
+            }
+
+            &_bottom {
+                font-size: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 420px) {
@@ -505,6 +528,29 @@
             }
     
             &_agree {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .news {
+        &__slider {
+            &_pagination {
+                display: none;
+            }
+        }
+
+        &__slide {
+
+            &_title {
+                font-size: 18px;
+            }
+
+            &_content {
+                min-height: 220px;
+            }
+
+            &_bottom {
                 font-size: 13px;
             }
         }

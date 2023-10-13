@@ -201,6 +201,18 @@
   .form__content {
     gap: 20px;
   }
+  .news__slider_pagination {
+    display: none;
+  }
+  .news__slide_title {
+    font-size: 22px;
+  }
+  .news__slide_content {
+    min-height: 220px;
+  }
+  .news__slide_bottom {
+    font-size: 15px;
+  }
 }
 @media (max-width: 420px) {
   :root {
@@ -363,6 +375,18 @@
     border-radius: 20px;
   }
   .feedback__form_agree {
+    font-size: 13px;
+  }
+  .news__slider_pagination {
+    display: none;
+  }
+  .news__slide_title {
+    font-size: 18px;
+  }
+  .news__slide_content {
+    min-height: 220px;
+  }
+  .news__slide_bottom {
     font-size: 13px;
   }
 }

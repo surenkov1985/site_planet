@@ -266,6 +266,7 @@
     .partners {
         &__slider {
             &_pagination {
+                display: none;
                 visibility: hidden;
                 opacity: 0;
             }
@@ -333,6 +334,24 @@
             }
     
             &_agree {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .news {
+
+        &__slide {
+
+            &_title {
+                font-size: 20px;
+            }
+
+            &_content {
+                min-height: 200px;
+            }
+
+            &_bottom {
                 font-size: 14px;
             }
         }

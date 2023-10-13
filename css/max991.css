@@ -124,4 +124,16 @@
   .feedback__form_agree {
     font-size: 14px;
   }
+  .news__slide_title {
+    font-size: 18px;
+  }
+  .news__slide_text {
+    font-size: 16px;
+  }
+  .news__slide_content {
+    min-height: 200px;
+  }
+  .news__slide_bottom {
+    font-size: 13px;
+  }
 }
