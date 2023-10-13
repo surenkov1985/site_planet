@@ -3,6 +3,9 @@
     .h3 {
         font-size: 48px;
     }
+    .dark-link {
+        font-size: 28px;
+    }
     .head {
         &__left {
             gap: 50px;
@@ -13,17 +16,21 @@
                 gap:30px;
             }
         }
+
+        &__search {
+            &_input {
+                width: 500px;
+            }
+        }
     }
 
     .mobile {
         &__nav {
-            &_top, &_center, &_bottom {
+            &_center {
                 & ul{
                     & li a {
-                    font-size: 36px;
-                }
-                & li button  {
-                    font-size: 36px;
+                        font-size: 36px;
+                    }
                 }
             }
 
@@ -32,14 +39,40 @@
                 & ul{
                     gap: 15px 55px;
                     & li a {
-                    padding-right: 30px;
+                        padding-right: 30px;
+                        font-size: 36px;
+
+                        &:hover {
+                            padding-left: 15px;
+                            padding-right: 15px;
+                        }
                     }
-                    &:hover {
-                        padding-left: 15px;
-                        padding-right: 15px;
+                    
+                    
+                }
+            }
+            &_bottom {
+               
+                & ul {
+                    gap: 60px 200px;
+
+                    & li {
+                        & button  {
+                            font-size: 36px;
+                        }
                     }
                 }
             }
+        }
+
+        &__foot {
+            padding-top: 30px;
+            padding-bottom: 40px;
+
+            &_contacts {
+                & ul {
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -190,6 +223,27 @@
             }
         }
     }
+
+    .submenu {
+        
+        &__title {
+            font-size: 36px;
+        }
+
+        &__close {
+            &_btn {
+                font-size: 22px;
+
+                & svg {
+                    width: 66px;
+                    height: 66px;
+                }
+            }
+        }
+        &__body {
+            padding-bottom: 100px;
+        }
+    }
 }
 
 @media (max-width: 1550px) {
@@ -204,6 +258,10 @@
     .link {
         font-size: 18px;
     }
+
+    .dark-link {
+        font-size: 26px;
+    }
     .btn {
         font-size: 18px;
     }
@@ -215,6 +273,12 @@
         &__nav {
             &_list {
                 gap:30px;
+            }
+        }
+
+        &__search {
+            &_input {
+                width: 450px;
             }
         }
     }
@@ -355,6 +419,84 @@
             }
         }
     }
+
+    .mobile {
+
+        &__bg {
+            right: 10%;
+            width: calc(158 / 1024 * 100%);
+        }
+        &__nav {
+            &_center {
+                & ul{
+                    
+                    & li button  {
+                        font-size: 32px;
+                    }
+                    
+                }
+            }
+
+            &_top {
+
+                & ul {
+                    gap: 15px 50px;
+                    & li a {
+                        padding-right: 26px;
+                        font-size: 32px;
+                        &:hover {
+                            padding-left: 13px;
+                            padding-right: 13px;
+                        }
+                    }
+                    
+                    }
+                
+            }
+            &_bottom {
+               
+                & ul {
+                    gap: 55px 180px;
+
+                    & li a {
+                        font-size: 32px;
+                        }
+                }
+            }
+        }
+
+        &__foot {
+            padding-top: 30px;
+            padding-bottom: 40px;
+
+            &_contacts {
+                & ul {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .submenu {
+        
+        &__title {
+            font-size: 32px;
+        }
+
+        &__close {
+            &_btn {
+                font-size: 18px;
+
+                & svg {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+        &__body {
+            padding-bottom: 80px;
+        }
+    }
 }
 @media (max-width: 1440px) {
 
@@ -388,6 +530,9 @@
         display: none;
     }
 
+    .dark-link {
+        font-size: 24px;
+    }
     .head {
         &__left {
             flex-grow: 1;
@@ -396,6 +541,12 @@
 
         &__right {
             gap: 40px;
+        }
+
+        &__search {
+            &_input {
+                width: 350px;
+            }
         }
     }
 
@@ -600,6 +751,112 @@
             &_bottom {
                 font-size: 13px;
             }
+        }
+    }
+
+    .mobile {
+
+        &__head {
+            padding-bottom: 20px;
+        }
+
+        &__body {
+            padding-top: 30px;
+
+            & .container {
+                gap: 30px;
+            }
+        }
+
+        & .logo {
+            width: 165px !important;
+            display: flex;
+        }
+
+        &__close_btn {
+            width: 40px;
+            height: 40px;
+
+            & svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__nav {
+            &_center {
+                & ul{
+                    gap: 25px;
+                    & li button  {
+                        font-size: 28px;
+                    }
+                    
+                }
+            }
+
+            &_top {
+
+                & ul{
+                    gap: 15px 50px;
+                    & li a {
+                        padding-right: 18px;
+                        font-size: 28px;
+                    }
+                    &:hover {
+                        padding-left: 9px;
+                        padding-right: 9px;
+                    }
+                    
+                }
+            }
+            &_bottom {
+               
+                & ul {
+                    gap: 50px 160px;
+
+                    & li a {
+                        font-size: 28px;
+                        }
+                }
+            }
+        }
+
+        &__foot {
+            padding-top: 30px;
+            padding-bottom: 40px;
+
+            &_contacts {
+                & ul {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .submenu {
+        
+        &__title {
+            font-size: 28px;
+        }
+        
+        &__close {
+            &_btn {
+                font-size: 16px;
+
+                & svg {
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+
+        &__nav {
+            &_list {
+                gap: 30px;
+            }
+        }
+
+        &__body {
+            padding-bottom: 60px;
         }
     }
 }

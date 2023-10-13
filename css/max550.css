@@ -213,6 +213,118 @@
   .news__slide_bottom {
     font-size: 15px;
   }
+  .mobile__head .container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .mobile__head_left {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px 30px;
+  }
+  .mobile__body {
+    padding-top: 20px;
+  }
+  .mobile__body .container {
+    gap: 30px;
+  }
+  .mobile .logo {
+    width: 145px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile__close_btn {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile__close_btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .mobile__nav_title {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .mobile__nav_center {
+    width: 100%;
+  }
+  .mobile__nav_center ul {
+    gap: 10px;
+  }
+  .mobile__nav_center ul li button {
+    font-size: 16px;
+  }
+  .mobile__nav_top {
+    width: 100%;
+  }
+  .mobile__nav_top ul {
+    gap: 15px 20px;
+  }
+  .mobile__nav_top ul li a {
+    padding-right: 0px;
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .mobile__nav_top ul:hover {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mobile__nav_bottom {
+    width: 100%;
+  }
+  .mobile__nav_bottom ul {
+    gap: 10px 30px;
+  }
+  .mobile__nav_bottom ul li a {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .mobile__foot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobile__foot .container {
+    gap: 30px;
+  }
+  .mobile__foot_contacts {
+    width: 100%;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 16px;
+    gap: 10px 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .submenu__head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .submenu__title {
+    font-size: 18px;
+    gap: 7px;
+  }
+  .submenu__close_btn {
+    font-size: 14px;
+  }
+  .submenu__close_btn svg {
+    width: 38px;
+    height: 38px;
+  }
+  .submenu__img {
+    display: none;
+  }
+  .submenu__nav {
+    width: 100%;
+  }
+  .submenu__nav_list {
+    gap: 15px;
+  }
+  .submenu__body {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
 }
 @media (max-width: 420px) {
   :root {

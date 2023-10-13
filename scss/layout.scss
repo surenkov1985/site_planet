@@ -285,11 +285,14 @@
     &__bg {
         position: absolute;
         height: 100%;
+        width: calc(388 / 1920 * 100%);
         top:0;
         right: 7.5%;
 
         & img {
             height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
     }
 
@@ -420,7 +423,7 @@
         }
 
         &_top {
-            width: calc(1265 / 1792 * 100%);
+            width: calc(1350 / 1792 * 100%);
             & ul {
                 display: flex;
                 align-items: center;
@@ -534,6 +537,22 @@
 }
 
 .submenu {
+
+    &__title {
+        font-family: var(--title-font);
+        font-size: 42px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        width: calc(628 / 1792 * 100%);
+
+        & img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
 
     &__content {
         width: 100%;

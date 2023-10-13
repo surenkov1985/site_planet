@@ -24,6 +24,23 @@
   .head__left {
     width: 100%;
   }
+  .head__search {
+    margin-left: 0;
+  }
+  .head__search_input {
+    width: 200px;
+    font-size: 16px;
+    padding: 5px 0;
+    border-bottom-width: 1px;
+  }
+  .head__search .search-btn {
+    width: 20px;
+    height: 20px;
+  }
+  .head__search .search-btn svg {
+    width: 100%;
+    height: 100%;
+  }
   .foot {
     padding: 50px 48px 50px;
   }
@@ -135,5 +152,110 @@
   }
   .news__slide_bottom {
     font-size: 13px;
+  }
+  .mobile__bg {
+    display: none;
+  }
+  .mobile__head {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .mobile__head_left {
+    gap: 40px;
+  }
+  .mobile__body {
+    padding-top: 20px;
+  }
+  .mobile__body .container {
+    gap: 30px;
+  }
+  .mobile .logo {
+    width: 145px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile__close_btn {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile__close_btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .mobile__nav_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .mobile__nav_center ul {
+    gap: 10px;
+  }
+  .mobile__nav_center ul li button {
+    font-size: 20px;
+  }
+  .mobile__nav_top {
+    width: 100%;
+  }
+  .mobile__nav_top ul {
+    gap: 15px 30px;
+  }
+  .mobile__nav_top ul li a {
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .mobile__nav_top ul:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .mobile__nav_bottom {
+    width: 100%;
+  }
+  .mobile__nav_bottom ul {
+    gap: 20px 50px;
+  }
+  .mobile__nav_bottom ul li a {
+    font-size: 20px;
+  }
+  .mobile__foot {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .mobile__foot .container {
+    gap: 30px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .mobile__foot_contacts {
+    width: 100%;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 16px;
+    gap: 15px 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dark-link {
+    font-size: 18px;
+  }
+  .submenu__head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .submenu__title {
+    font-size: 22px;
+  }
+  .submenu__close_btn {
+    font-size: 14px;
+  }
+  .submenu__close_btn svg {
+    width: 38px;
+    height: 38px;
+  }
+  .submenu__nav_list {
+    gap: 15px;
+  }
+  .submenu__body {
+    padding-bottom: 40px;
   }
 }

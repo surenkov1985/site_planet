@@ -57,6 +57,20 @@
   .head .head__right {
     margin-left: auto;
   }
+  .head__search_input {
+    width: 270px;
+    font-size: 16px;
+    padding: 5px 0;
+    border-bottom-width: 1px;
+  }
+  .head__search .search-btn {
+    width: 20px;
+    height: 20px;
+  }
+  .head__search .search-btn svg {
+    width: 100%;
+    height: 100%;
+  }
   .foot {
     padding: 60px 48px 60px;
   }
@@ -135,6 +149,9 @@
   }
   .h3 {
     font-size: 30px;
+  }
+  .dark-link {
+    font-size: 20px;
   }
   .foot__nav_list {
     -webkit-box-pack: center;
@@ -267,5 +284,97 @@
   }
   .news__slide_bottom {
     font-size: 12px;
+  }
+  .mobile__head {
+    padding-bottom: 20px;
+  }
+  .mobile__body {
+    padding-top: 30px;
+  }
+  .mobile__body .container {
+    gap: 30px;
+  }
+  .mobile .logo {
+    width: 145px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile__close_btn {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile__close_btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .mobile__nav_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .mobile__nav_center {
+    width: 78.125%;
+  }
+  .mobile__nav_center ul {
+    gap: 20px;
+  }
+  .mobile__nav_center ul li button {
+    font-size: 24px;
+  }
+  .mobile__nav_top {
+    width: 75.3348214286%;
+  }
+  .mobile__nav_top ul {
+    gap: 15px 50px;
+  }
+  .mobile__nav_top ul li a {
+    padding-right: 10px;
+    font-size: 24px;
+  }
+  .mobile__nav_top ul:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .mobile__nav_bottom {
+    width: 75.3348214286%;
+  }
+  .mobile__nav_bottom ul {
+    gap: 40px 160px;
+  }
+  .mobile__nav_bottom ul li a {
+    font-size: 24px;
+  }
+  .mobile__foot {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 14px;
+  }
+  .submenu__head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .submenu__title {
+    font-size: 24px;
+  }
+  .submenu__close_btn {
+    font-size: 14px;
+  }
+  .submenu__close_btn svg {
+    width: 38px;
+    height: 38px;
+  }
+  .submenu__img {
+    width: 36.5010799136%;
+  }
+  .submenu__nav {
+    width: 61.3839285714%;
+  }
+  .submenu__nav_list {
+    gap: 20px;
+  }
+  .submenu__body {
+    padding-bottom: 40px;
   }
 }

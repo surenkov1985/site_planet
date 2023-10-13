@@ -373,4 +373,161 @@
             }
         }
     }
+
+    .mobile {
+
+        &__head {
+
+            & .container {
+                align-items: flex-start;
+            }
+            &_left {
+                flex-wrap: wrap;
+                gap: 15px 30px;
+            }
+        }
+
+        &__body {
+            padding-top: 20px;
+
+            & .container {
+                gap: 30px;
+            }
+        }
+
+        & .logo {
+            width: 145px !important;
+            display: flex;
+        }
+
+        &__close_btn {
+            width: 40px;
+            height: 40px;
+
+            & svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__nav {
+
+            &_title {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            &_center {
+                // width: calc(1400 / 1792 * 100%);
+                & ul{
+                    gap: 10px;
+
+                    & li button  {
+                        font-size: 18px;
+                    }
+                    
+                }
+            }
+
+            &_top {
+                width: 100%;
+                // width: calc(1400 / 1792 * 100%);
+
+                & ul{
+                    gap: 15px 30px;
+                    & li a {
+                        padding-right: 10px;
+                        font-size: 18px;
+                    }
+                    &:hover {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                    
+                }
+            }
+            &_bottom {
+                // width: calc(1440 / 1792 * 100%);
+                width: 100%;
+               
+                & ul {
+                    // gap: 30px 100px;
+
+                    & li a {
+                        font-size: 18px;
+                        }
+                }
+            }
+        }
+
+        &__foot {
+            padding-top: 10px;
+            padding-bottom: 40px;
+
+            & .container {
+                gap: 30px;
+            }
+
+            &_contacts {
+                width: 100%;
+                
+                
+                & ul {
+                    font-size: 16px;
+                    gap:10px 20px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+    .dark-link {
+        font-size: 16px;
+    }
+
+    .submenu {
+
+        &__head {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        &__title {
+            align-items: flex-start;
+            font-size: 20px;
+            gap: 7px;
+
+            & img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        &__close {
+            &_btn {
+                font-size: 14px;
+
+                & svg {
+                    width: 38px;
+                    height: 38px;
+                }
+            }
+        }
+
+        &__img {
+            display: none;
+            // width: calc(338 / 926 * 100%);
+        }
+
+        &__nav {
+            width: 100%;
+
+            &_list {
+                gap: 15px;
+            }
+        }
+
+        &__body {
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+    }
 }

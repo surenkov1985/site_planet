@@ -2,27 +2,44 @@
   .h3 {
     font-size: 48px;
   }
+  .dark-link {
+    font-size: 28px;
+  }
   .head__left {
     gap: 50px;
   }
   .head__nav_list {
     gap: 30px;
   }
-  .mobile__nav_top ul li a, .mobile__nav_center ul li a, .mobile__nav_bottom ul li a {
+  .head__search_input {
+    width: 500px;
+  }
+  .mobile__nav_center ul li a {
     font-size: 36px;
   }
-  .mobile__nav_top ul li button, .mobile__nav_center ul li button, .mobile__nav_bottom ul li button {
-    font-size: 36px;
-  }
-  .mobile__nav_top_top ul, .mobile__nav_center_top ul, .mobile__nav_bottom_top ul {
+  .mobile__nav_top ul {
     gap: 15px 55px;
   }
-  .mobile__nav_top_top ul li a, .mobile__nav_center_top ul li a, .mobile__nav_bottom_top ul li a {
+  .mobile__nav_top ul li a {
     padding-right: 30px;
+    font-size: 36px;
   }
-  .mobile__nav_top_top ul:hover, .mobile__nav_center_top ul:hover, .mobile__nav_bottom_top ul:hover {
+  .mobile__nav_top ul li a:hover {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .mobile__nav_bottom ul {
+    gap: 60px 200px;
+  }
+  .mobile__nav_bottom ul li button {
+    font-size: 36px;
+  }
+  .mobile__foot {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 20px;
   }
   .present__text p {
     font-size: 20px;
@@ -102,6 +119,19 @@
   .news__slide_bottom {
     font-size: 15px;
   }
+  .submenu__title {
+    font-size: 36px;
+  }
+  .submenu__close_btn {
+    font-size: 22px;
+  }
+  .submenu__close_btn svg {
+    width: 66px;
+    height: 66px;
+  }
+  .submenu__body {
+    padding-bottom: 100px;
+  }
 }
 @media (max-width: 1550px) {
   .h2 {
@@ -113,11 +143,17 @@
   .link {
     font-size: 18px;
   }
+  .dark-link {
+    font-size: 26px;
+  }
   .btn {
     font-size: 18px;
   }
   .head__nav_list {
     gap: 30px;
+  }
+  .head__search_input {
+    width: 450px;
   }
   .fs__slider .swiper-pagination-bullet {
     height: 55px;
@@ -193,6 +229,50 @@
   .news__slide_bottom {
     font-size: 14px;
   }
+  .mobile__bg {
+    right: 10%;
+    width: 15.4296875%;
+  }
+  .mobile__nav_center ul li button {
+    font-size: 32px;
+  }
+  .mobile__nav_top ul {
+    gap: 15px 50px;
+  }
+  .mobile__nav_top ul li a {
+    padding-right: 26px;
+    font-size: 32px;
+  }
+  .mobile__nav_top ul li a:hover {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .mobile__nav_bottom ul {
+    gap: 55px 180px;
+  }
+  .mobile__nav_bottom ul li a {
+    font-size: 32px;
+  }
+  .mobile__foot {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 18px;
+  }
+  .submenu__title {
+    font-size: 32px;
+  }
+  .submenu__close_btn {
+    font-size: 18px;
+  }
+  .submenu__close_btn svg {
+    width: 50px;
+    height: 50px;
+  }
+  .submenu__body {
+    padding-bottom: 80px;
+  }
 }
 @media (max-width: 1440px) {
   .h2 {
@@ -223,6 +303,9 @@
   .phone-link {
     display: none;
   }
+  .dark-link {
+    font-size: 24px;
+  }
   .head__left {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -233,6 +316,9 @@
   }
   .head__right {
     gap: 40px;
+  }
+  .head__search_input {
+    width: 350px;
   }
   .fs__slider .swiper-pagination-bullet {
     height: 42px;
@@ -357,5 +443,74 @@
   }
   .news__slide_bottom {
     font-size: 13px;
+  }
+  .mobile__head {
+    padding-bottom: 20px;
+  }
+  .mobile__body {
+    padding-top: 30px;
+  }
+  .mobile__body .container {
+    gap: 30px;
+  }
+  .mobile .logo {
+    width: 165px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile__close_btn {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile__close_btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .mobile__nav_center ul {
+    gap: 25px;
+  }
+  .mobile__nav_center ul li button {
+    font-size: 28px;
+  }
+  .mobile__nav_top ul {
+    gap: 15px 50px;
+  }
+  .mobile__nav_top ul li a {
+    padding-right: 18px;
+    font-size: 28px;
+  }
+  .mobile__nav_top ul:hover {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .mobile__nav_bottom ul {
+    gap: 50px 160px;
+  }
+  .mobile__nav_bottom ul li a {
+    font-size: 28px;
+  }
+  .mobile__foot {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .mobile__foot_contacts ul {
+    font-size: 16px;
+  }
+  .submenu__title {
+    font-size: 28px;
+  }
+  .submenu__close_btn {
+    font-size: 16px;
+  }
+  .submenu__close_btn svg {
+    width: 44px;
+    height: 44px;
+  }
+  .submenu__nav_list {
+    gap: 30px;
+  }
+  .submenu__body {
+    padding-bottom: 60px;
   }
 }
