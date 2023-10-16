@@ -167,6 +167,95 @@
   .fs__slide_text {
     width: calc(70% + 1px);
   }
+  .about {
+    padding-top: 20px;
+  }
+  .about__top {
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .about__top .role {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about__top .h3 {
+    font-size: 26px;
+  }
+  .about__img {
+    border-radius: 10px;
+  }
+  .about__img.wide {
+    width: 100%;
+  }
+  .about__quoting {
+    margin-top: 20px;
+  }
+  .about__quoting .before {
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .about__quoting .after {
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  .about__quoting p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about__quoting_title {
+    font-size: 20px;
+  }
+  .first .h2 {
+    margin-bottom: 40px;
+  }
+  .first__content {
+    gap: 30px;
+    display: flow-root;
+  }
+  .first__img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .first__text {
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .first__text_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .first__text ul {
+    width: 100%;
+    padding: 20px 50px 0 15px;
+    border-top: 2px solid var(--main-green-color);
+    font-size: 16px;
+    gap: 15px;
+  }
+  .team .h2 {
+    margin-bottom: 40px;
+  }
+  .team__slide {
+    gap: 20px;
+  }
+  .team__slide_name {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .team__slide_role {
+    font-size: 16px;
+  }
   .present__row {
     gap: 50px;
   }
@@ -235,7 +324,7 @@
     font-size: 16px;
   }
   .partners__slider_pagination {
-    display: none;
+    margin-top: 10px;
     visibility: hidden;
     opacity: 0;
   }
@@ -340,7 +429,7 @@
     padding-right: 10px;
     font-size: 18px;
   }
-  .mobile__nav_top ul:hover {
+  .mobile__nav_top ul li a:hover {
     padding-left: 5px;
     padding-right: 5px;
   }

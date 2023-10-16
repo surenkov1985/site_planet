@@ -3,6 +3,10 @@
     .h3 {
         font-size: 48px;
     }
+
+    .h4 {
+        font-size: 38px;
+    }
     .dark-link {
         font-size: 28px;
     }
@@ -73,6 +77,136 @@
                 & ul {
                     font-size: 20px;
                 }
+            }
+        }
+    }
+
+    .about {
+        
+        &__top {
+            & .role {
+                font-size: 24px;
+            }
+
+            & .h3 {
+                font-size: 40px;
+            }
+        }
+
+        &__quoting {
+    
+            & .before {
+                margin-bottom: 30px;
+                width: 75px;
+            }
+    
+            & .after {
+                margin-top: 30px;
+                width: 75px;
+            }
+            
+            & p {
+                font-size: 20px;
+            }
+    
+            &_title {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .directions {
+        & .h4 {
+            margin-bottom: 90px;
+        }
+    
+        &__slider {
+    
+            &_blur {
+                position: absolute;
+                width: 400px;
+                height: 100px;
+                right: -64px;
+            }
+        }
+    
+        &__slide {
+    
+            &_title {
+                font-size: 24px;
+            }
+    
+            &_text {
+                margin-bottom: 16px;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+    
+    .first {
+        & .h2 {
+            margin-bottom: 80px;
+        }
+    
+        &__content {
+            gap: 80px;
+        }
+    
+        &__text {
+            position: sticky;
+    
+            &_title {
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 50px;
+            }
+    
+            & ul {
+                padding: 50px 60px 0 25px;
+                border-top: 2px solid var(--main-green-color);
+                font-size: 20px;
+            }
+        }
+    }
+
+    .team {
+        
+        & .h2 {
+            margin-bottom: 90px;
+        }
+    
+        &__slide {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+    
+            &_name {
+                font-size: 30px;
+                margin-bottom: 35px;
+            }
+    
+            &_role {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .projects {
+    
+        & .h2 {
+            margin-bottom: 90px;
+        }
+    
+        &__slide {
+
+            &_content {
+                padding: 30px 25px;
+            }
+    
+            &_icon {
+                padding: 6px 35px 6px 20px;
             }
         }
     }
@@ -255,6 +389,10 @@
         font-size: 42px;
     }
 
+    .h4 {
+        font-size: 36px;
+    }
+
     .link {
         font-size: 18px;
     }
@@ -301,6 +439,132 @@
             }
             &_text p {
                 font-size: 18px;
+            }
+        }
+    }
+
+    .about {
+        &__top {
+            gap: 70px;
+            & .role {
+                font-size: 22px;
+            }
+
+            & .h3 {
+                font-size: 36px;
+            }
+        }
+
+        &__quoting {
+    
+            & .before {
+                margin-bottom: 28px;
+                width: 70px;
+                height: 70px;
+            }
+    
+            & .after {
+                margin-top: 26px;
+                width: 70px;
+                height: 70px;
+            }
+            
+            & p {
+                font-size: 18px;
+            }
+    
+            &_title {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .directions {
+        & .h4 {
+            margin-bottom: 70px;
+        }
+    
+        &__slide {
+    
+            &_title {
+                font-size: 22px;
+            }
+    
+            &_text {
+                margin-bottom: 12px;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 0.4px;
+            }
+        }
+    }
+
+    .first {
+        & .h2 {
+            margin-bottom: 70px;
+        }
+    
+        &__content {
+            gap: 70px;
+        }
+    
+        &__text {
+            position: sticky;
+    
+            &_title {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 45px;
+            }
+    
+            & ul {
+                padding: 45px 60px 0 25px;
+                border-top: 2px solid var(--main-green-color);
+                font-size: 18px;
+            }
+        }
+    }
+
+    .team {
+        
+        & .h2 {
+            margin-bottom: 70px;
+        }
+    
+        &__slide {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            &_name {
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+    
+            &_role {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .projects {
+    
+        & .h2 {
+            margin-bottom: 80px;
+        }
+    
+        &__slide {
+
+            &_content {
+                padding: 30px 25px;
+            }
+    
+            &_icon {
+                padding: 6px 35px 6px 20px;
+            }
+    
+            &_name {
+                font-size: 20px;
             }
         }
     }
@@ -508,6 +772,10 @@
         font-size: 36px;
     }
 
+    .h4 {
+        font-size: 32px;
+    }
+
     .btn {
         font-size: 16px;
     }
@@ -564,6 +832,129 @@
             }
             &_text p {
                 font-size: 16px;
+            }
+        }
+    }
+    
+    .about {
+        &__top {
+            gap: 60px;
+            & .role {
+                font-size: 20px;
+            }
+
+            & .h3 {
+                font-size: 32px;
+            }
+        }
+
+        &__quoting {
+    
+            & .before {
+                margin-bottom: 24px;
+                width: 65px;
+                height: 65px;
+            }
+    
+            & .after {
+                margin-top: 24px;
+                width: 65px;
+                height: 65px;
+            }
+            
+            & p {
+                font-size: 18px;
+            }
+    
+            &_title {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .directions {
+        & .h4 {
+            margin-bottom: 60px;
+        }
+    
+        &__slide {
+    
+            &_title {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .first {
+        & .h2 {
+            margin-bottom: 60px;
+        }
+    
+        &__content {
+            gap: 60px;
+        }
+    
+        &__text {
+            position: sticky;
+    
+            &_title {
+                font-size: 22px;
+                margin-bottom: 40px;
+            }
+    
+            & ul {
+                padding: 40px 60px 0 25px;
+                border-top: 2px solid var(--main-green-color);
+                font-size: 16px;
+                gap: 20px;
+            }
+        }
+    }
+
+    .team {
+        
+        & .h2 {
+            margin-bottom: 60px;
+        }
+    
+        &__slide {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &_content {
+                width: 100%;
+            }
+    
+            &_name {
+                font-size: 28px;
+                margin-bottom: 25px;
+            }
+    
+            &_role {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .projects {
+    
+        & .h2 {
+            margin-bottom: 60px;
+        }
+    
+        &__slide {
+
+            &_content {
+                padding: 30px 25px;
+            }
+    
+            &_icon {
+                padding: 6px 35px 6px 20px;
+            }
+    
+            &_name {
+                font-size: 18px;
             }
         }
     }
@@ -800,11 +1191,12 @@
                     & li a {
                         padding-right: 18px;
                         font-size: 28px;
+                        &:hover {
+                            padding-left: 9px;
+                            padding-right: 9px;
+                        }
                     }
-                    &:hover {
-                        padding-left: 9px;
-                        padding-right: 9px;
-                    }
+                    
                     
                 }
             }

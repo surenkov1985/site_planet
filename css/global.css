@@ -167,6 +167,13 @@
   text-transform: uppercase;
 }
 
+.h4 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .no-scroll {
   overflow: hidden;
 }

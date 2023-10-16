@@ -53,6 +53,17 @@
   .foot__logo {
     width: 250px;
   }
+  .breadcrumbs {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .breadcrumbs__list {
+    gap: 12px;
+  }
+  .breadcrumbs__item {
+    gap: 12px;
+    font-size: 14px;
+  }
   .fs {
     min-height: 640px;
   }
@@ -73,6 +84,79 @@
   .fs__slide_content h1 {
     font-size: 50px;
     margin-top: 100px;
+  }
+  .about__top {
+    gap: 30px;
+  }
+  .about__top .role {
+    font-size: 18px;
+  }
+  .about__top .h3 {
+    font-size: 26px;
+  }
+  .about__img.wide {
+    width: 55%;
+  }
+  .about__quoting .before {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .about__quoting .after {
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  .about__quoting p {
+    font-size: 16px;
+  }
+  .about__quoting_title {
+    font-size: 20px;
+  }
+  .directions .h4 {
+    margin-bottom: 40px;
+  }
+  .directions__slide_img {
+    width: 30.612244898%;
+  }
+  .directions__slide_text {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .first .h2 {
+    margin-bottom: 50px;
+  }
+  .first__content {
+    gap: 30px;
+  }
+  .first__text {
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .first__text_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .first__text ul {
+    width: 100%;
+    padding: 20px 50px 0 15px;
+    border-top: 2px solid var(--main-green-color);
+    font-size: 16px;
+    gap: 15px;
+  }
+  .team .h2 {
+    margin-bottom: 45px;
+  }
+  .team__slide {
+    gap: 20px;
+  }
+  .team__slide_name {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .team__slide_role {
+    font-size: 16px;
   }
   .present__row {
     width: 100%;
@@ -203,7 +287,7 @@
     padding-right: 10px;
     font-size: 20px;
   }
-  .mobile__nav_top ul:hover {
+  .mobile__nav_top ul li a:hover {
     padding-left: 5px;
     padding-right: 5px;
   }

@@ -54,11 +54,17 @@
   .foot__contacts_scls {
     max-width: 300px;
   }
+  .head {
+    padding: 18px 20px;
+  }
   .head__bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .head__nav_burger-btn {
+    height: 35px;
   }
   .fs {
     min-height: 750px;
@@ -93,6 +99,91 @@
     display: none;
     top: 85px !important;
     left: 20px !important;
+  }
+  .about {
+    padding-top: 10px;
+  }
+  .about .h2 {
+    margin-bottom: 20px;
+  }
+  .about__top {
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .about__top .role {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .about__top .h3 {
+    font-size: 20px;
+  }
+  .about__img.wide {
+    width: 100%;
+  }
+  .about__quoting {
+    margin-top: 20px;
+  }
+  .about__quoting .before {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .about__quoting .after {
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  .about__quoting p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .about__quoting_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .first .h2 {
+    margin-bottom: 30px;
+  }
+  .first__content {
+    gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .first__img {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .first__text {
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .first__text_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .first__text ul {
+    width: 100%;
+    padding: 20px 50px 0 15px;
+    border-top: 2px solid var(--main-green-color);
+    font-size: 16px;
+    gap: 15px;
   }
   .present__images {
     width: 80%;
@@ -152,6 +243,7 @@
   }
   .presentation__container {
     padding: 56px 20px 320px;
+    border-radius: 10px;
   }
   .presentation__content {
     width: 100%;
@@ -175,6 +267,33 @@
     bottom: 30px;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+  }
+  .team .h2 {
+    margin-bottom: 30px;
+  }
+  .team__slider_pagination {
+    margin-top: 20px;
+    visibility: hidden;
+  }
+  .team__slide {
+    gap: 15px;
+  }
+  .team__slide_name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .team__slide_role {
+    font-size: 15px;
+  }
+  .projects .h2 {
+    margin-bottom: 50px;
+  }
+  .projects__slider_pagination {
+    margin-top: 20px;
+    visibility: hidden;
+  }
+  .projects__slide_content {
+    padding: 20px 15px;
   }
   .feedback__content {
     border-radius: 10px;
@@ -200,6 +319,9 @@
   }
   .form__content {
     gap: 20px;
+  }
+  .advantages__img {
+    border-radius: 10px;
   }
   .news__slider_pagination {
     display: none;
@@ -267,7 +389,7 @@
     font-size: 16px;
     padding-bottom: 5px;
   }
-  .mobile__nav_top ul:hover {
+  .mobile__nav_top ul li a:hover {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -540,8 +662,11 @@
   .fs {
     min-height: 650px;
   }
+  .fs__slider_pagination {
+    top: 160px !important;
+  }
   .fs__slide_content h1 {
-    margin-top: 120px;
+    margin-top: 140px;
   }
   .fs__slide_title {
     padding: 25px 1px 50px 35px;
@@ -549,13 +674,34 @@
 }
 @media (max-height: 850px) and (max-width: 550px) {
   .fs {
-    min-height: 750px;
+    min-height: 760px;
   }
   .fs__slide_content h1 {
-    margin-top: 195px;
+    margin-top: 210px;
     font-size: 45px;
   }
   .fs__slide_title {
     padding: 1px 20px 55px;
+  }
+}
+@media (max-height: 850px) and (max-width: 420px) {
+  .fs {
+    min-height: 760px;
+  }
+  .fs__slide_content h1 {
+    margin-top: 210px;
+    font-size: 36px;
+  }
+  .fs__slide_content h1 .line:nth-child(1) {
+    margin-left: 0px;
+    white-space: nowrap;
+  }
+  .fs__slide_content h1 .line:nth-child(3) {
+    margin-left: 0px;
+    white-space: nowrap;
+  }
+  .fs__slide_content h1 .line:nth-child(5) {
+    margin-left: 0px;
+    white-space: initial;
   }
 }

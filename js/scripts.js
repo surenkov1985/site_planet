@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", function(){
     consultantSlider();
     partnersSlider();
     newsSlider();
+    directionsSlider();
+    teamSlider();
+    projectsSlider();
 
     const scrollOptions = {
 		rootMargin: "100px",
@@ -49,4 +52,14 @@ document.addEventListener("DOMContentLoaded", function(){
     $(document).on("click", ".submenu__close_btn", function () {
         $(".mobile__submenu").removeClass("show");
     });
+
+    $(document).on("mouseover", ".present__images_item", function(){
+        $(this).removeClass("mouseout");
+        $(this).addClass("mouseover");
+    })
+
+    $(document).on("mouseout", ".present__images_item", function(){
+        $(this).removeClass("mouseover");
+        $(this).addClass("mouseout");
+    })
 });
