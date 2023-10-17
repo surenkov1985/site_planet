@@ -4,11 +4,22 @@
         & .container {
             flex-wrap: wrap;
             flex-direction: column-reverse;
-            gap: 50px;
+            gap: 40px;
+        }
+
+        &__top {
+            order: 2;
+            margin-bottom: 0;
         }
         &__text {
             font-size: 22px;
             width: 100%;
+
+            &.small {
+                order: 0;
+                width: 100%;
+                font-size: 16px;
+            }
         }
 
         &__more {
@@ -29,6 +40,23 @@
             border-radius: 10px;
             overflow: hidden;
             isolation: isolate;
+
+            &.sm {
+                width: 100%;
+                order: 1;
+            }
+        }
+    }
+
+    .numbers {
+        &__title {
+            font-size: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            & img {
+                width: 95%;
+            }
         }
     }
 }
@@ -329,6 +357,117 @@
             left: 40%;
             bottom: 30px;
             transform: translate(-50%);
+        }
+    }
+    .numbers {
+
+        &__top {
+            margin-bottom: 35px;
+        }
+
+        &__title {
+            font-size: 22px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            & img {
+                // width: 100%;
+                display: none;
+            }
+        }
+
+        &__content {
+            flex-wrap: wrap;
+            gap: 30px;
+            &_right {
+                width: 100%;
+                flex-wrap: wrap;
+                gap: 30px;
+    
+                & .numbers__item {
+                    width: 100%;
+    
+                    &:first-child {
+                        width: 100%;
+                    }
+    
+                    &:last-child {
+                        width: 100%;
+                        // margin-top: 30px;
+                    }
+                }
+                // gap:78px
+            }
+    
+            &_left {
+                width: 100%;
+    
+                & .numbers__item {
+    
+                    &_title {
+                        text-align: right;
+                    }
+    
+                    &_subtitle {
+                        text-align: right;
+                    }
+                    &_text {
+                        text-align: right;
+                    }
+    
+                    
+                    
+                }
+            }
+        }
+    
+        &__item {
+            &_title {
+                font-size: 72px;
+            }
+    
+            &_subtitle {
+                font-size: 16px;
+            }
+    
+            &_text {
+                font-size: 14px;
+                margin-top: 10px;
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .how-work {
+        &__card {
+            width: calc(100%);
+            padding: 25px 20px 25px 20px;
+            border-right: none;
+
+            &:nth-child(3) {
+                border-right: none;
+                padding: 25px 20px 25px 20px;
+            }
+
+            &:nth-child(2n) {
+                border-right: none;
+                padding: 25px 20px 25px 20px;
+            }
+
+            &_title {
+                font-size: 18px;
+                min-height: 75px;
+            }
+
+            &_num {
+                // font-size: 20px;
+                width: 45px;
+                height: 45px;
+            }
+
+            &_text {
+                font-size: 14px;
+            }
         }
     }
 
@@ -633,6 +772,10 @@
     .btn {
         font-size: 14px;
     }
+
+    .btn-sm {
+        padding: 18px 25px;
+    }
     .btn-xsm {
         padding: 18px 30px;
     }
@@ -756,8 +899,15 @@
         & .container {
             gap: 30px;
         }
+
         &__text {
             font-size: 18px;
+            position: static;
+            
+
+            &.small {
+               order: 0; 
+            }
         }
 
         &__more {
@@ -778,6 +928,7 @@
             border-radius: 10px;
             overflow: hidden;
             isolation: isolate;
+            order: 1;
         }
     }
 

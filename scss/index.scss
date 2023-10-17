@@ -126,6 +126,10 @@
 
     }
 
+    &__content {
+        gap: 50px;
+    }
+
     &__top {
         justify-content: space-between;
         gap: 90px;
@@ -159,6 +163,7 @@
         &_bottom {
             padding-left: 20px;
             gap: 10px 20px;
+            flex-wrap: wrap;
         }
 
     }
@@ -1091,12 +1096,18 @@
         color: var(--dark-color);
         transition: all var(--transition-duration);
         will-change: transfotm;
+        
 
         &_img {
             display: flex;align-items: center;justify-content: center;
-            padding: 80px 60px;
+            // padding: 80px 60px;
             border-radius: 7px;
             border: 1px solid var(--main-green-color);
+            height: 370px;
+
+            & img {
+                width: 60%;
+            }
         }
 
         &_text {
@@ -1109,6 +1120,111 @@
             color: darken($color: #009551, $amount: 10%);
             border-color: darken($color: #009551, $amount: 10%);
             transform: perspective(500px) translateZ(2px);
+        }
+    }
+}
+
+//////////////////////// NUMBERS ///////////////////  
+
+.numbers {
+    &__top {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 140px;
+
+        & img {
+            width: 87.5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__title {
+        font-family: var(--title-font);
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 100%;
+        background: var(--white-color);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__content {
+        justify-content: space-between;
+        &_right {
+            width: 60%;
+
+            & .numbers__item {
+                // width: 33%;
+
+                &:first-child {
+                    width: 40%;
+                }
+
+                &:last-child {
+                    width: 45%;
+                }
+            }
+            // gap:78px
+        }
+
+        &_left {
+            width: 28%;
+
+            & .numbers__item {
+
+                &_title {
+                    text-align: left;
+                }
+
+                &_subtitle {
+                    text-align: left;
+                }
+                &_text {
+                    text-align: left;
+                }
+
+                
+                
+            }
+        }
+    }
+
+    &__item {
+        &_title {
+            color: #000;
+            font-family: var(--title-font);
+            font-size: 150px;
+            font-weight: 600;
+            line-height: 0.8; 
+            text-transform: uppercase;
+            text-align: right;
+        }
+
+        &_subtitle {
+            color: #000;
+            font-family: var(--title-font);
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 0.4;
+            text-transform: uppercase;
+            text-align: right;
+        }
+
+        &_text {
+            text-align: right;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.4px;
+            margin-top: 18px;
+            padding-top: 5px;
+            border-top: 1px solid var(--main-green-color);
         }
     }
 }
@@ -1137,6 +1253,55 @@
                     color: var(--main-green-color);
                 }
             }
+        }
+    }
+
+    &__cards {
+        margin-top: 100px;
+        border-bottom: 1px solid var(--dark-color);
+    }
+
+    &__card {
+        width: calc(100% / 3);
+        border-top: 1px solid var(--dark-color);
+        border-right: 1px solid var(--dark-color);
+        padding: 40px 35px 55px 64px;
+
+        &:nth-child(3n) {
+            border-right: none;
+            padding: 40px 64px 55px 35px;
+        }
+
+        &_title {
+            align-items: flex-start;
+            justify-content: space-between;
+            color: #000;
+            font-family: var(--title-font);
+            font-size: 30px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            min-height: 90px;
+            gap: 10px;
+        }
+
+        &_num {
+            color: var(--main-green-color);
+            font-weight: 500;
+            width: 72px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid rgba($color: #009551, $alpha: 0.2);
+            flex-shrink: 0;
+        }
+
+        &_text {
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 0.44px;
         }
     }
 }

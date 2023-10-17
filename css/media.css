@@ -163,6 +163,9 @@
   .training__text {
     font-size: 36px;
   }
+  .training__text.small {
+    font-size: 20px;
+  }
   .training__more {
     margin-top: 50px;
   }
@@ -173,7 +176,57 @@
     width: 70px;
     height: 70px;
   }
+  .services .h2 {
+    margin-bottom: 130px;
+  }
+  .numbers__top {
+    margin-bottom: 120px;
+  }
+  .numbers__title {
+    font-size: 52px;
+  }
+  .numbers__content_right {
+    width: 60%;
+  }
+  .numbers__content_right .numbers__item:first-child {
+    width: 40%;
+  }
+  .numbers__content_right .numbers__item:last-child {
+    width: 45%;
+  }
+  .numbers__content_left {
+    width: 28%;
+  }
+  .numbers__content_left .numbers__item_title {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_subtitle {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_text {
+    text-align: left;
+  }
+  .numbers__item_title {
+    font-size: 140px;
+  }
+  .numbers__item_subtitle {
+    font-size: 28px;
+  }
+  .numbers__item_text {
+    font-size: 18px;
+    margin-top: 18px;
+    padding-top: 5px;
+  }
   .how-work__row_list li {
+    font-size: 20px;
+  }
+  .how-work__cards {
+    margin-top: 80px;
+  }
+  .how-work__card_title {
+    font-size: 28px;
+  }
+  .how-work__card_text {
     font-size: 20px;
   }
   .partners__slide {
@@ -361,8 +414,17 @@
     padding: 25px 22px;
     height: 100px;
   }
+  .training__top {
+    margin-bottom: 60px;
+  }
   .training__text {
     font-size: 30px;
+  }
+  .training__text.small {
+    font-size: 18px;
+  }
+  .training__text.small .citate {
+    margin-top: 25px;
   }
   .training__more {
     margin-top: 40px;
@@ -374,7 +436,61 @@
     width: 60px;
     height: 60px;
   }
+  .services .h2 {
+    margin-bottom: 120px;
+  }
+  .numbers__top {
+    margin-bottom: 110px;
+  }
+  .numbers__title {
+    font-size: 50px;
+  }
+  .numbers__content_right {
+    width: 60%;
+  }
+  .numbers__content_right .numbers__item:first-child {
+    width: 40%;
+  }
+  .numbers__content_right .numbers__item:last-child {
+    width: 45%;
+  }
+  .numbers__content_left {
+    width: 28%;
+  }
+  .numbers__content_left .numbers__item_title {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_subtitle {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_text {
+    text-align: left;
+  }
+  .numbers__item_title {
+    font-size: 130px;
+  }
+  .numbers__item_subtitle {
+    font-size: 24px;
+  }
+  .numbers__item_text {
+    font-size: 16px;
+    margin-top: 15px;
+    padding-top: 5px;
+  }
   .how-work__row_list li {
+    font-size: 18px;
+  }
+  .how-work__cards {
+    margin-top: 60px;
+  }
+  .how-work__card_title {
+    font-size: 26px;
+  }
+  .how-work__card_num {
+    width: 68px;
+    height: 68px;
+  }
+  .how-work__card_text {
     font-size: 18px;
   }
   .partners__slide {
@@ -537,6 +653,9 @@
   .about__quoting_title {
     font-size: 22px;
   }
+  .about__text blockquote {
+    font-size: 18px;
+  }
   .directions .h4 {
     margin-bottom: 60px;
   }
@@ -644,8 +763,14 @@
     padding: 20px 18px;
     height: 80px;
   }
+  .training__top {
+    margin-bottom: 50px;
+  }
   .training__text {
     font-size: 26px;
+  }
+  .training__text.small {
+    font-size: 16px;
   }
   .training__text_border {
     padding-bottom: 5px;
@@ -660,7 +785,76 @@
     width: 55px;
     height: 55px;
   }
+  .services .h2 {
+    margin-bottom: 100px;
+  }
+  .services__card_img {
+    height: 340px;
+  }
+  .services__card_text {
+    font-size: 18px;
+  }
+  .numbers__top {
+    margin-bottom: 100px;
+  }
+  .numbers__title {
+    font-size: 46px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .numbers__content_right {
+    width: 60%;
+  }
+  .numbers__content_right .numbers__item:first-child {
+    width: 40%;
+  }
+  .numbers__content_right .numbers__item:last-child {
+    width: 45%;
+  }
+  .numbers__content_left {
+    width: 28%;
+  }
+  .numbers__content_left .numbers__item_title {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_subtitle {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_text {
+    text-align: left;
+  }
+  .numbers__item_title {
+    font-size: 116px;
+  }
+  .numbers__item_subtitle {
+    font-size: 22px;
+  }
+  .numbers__item_text {
+    font-size: 16px;
+    margin-top: 15px;
+    padding-top: 5px;
+  }
   .how-work__row_list li {
+    font-size: 16px;
+  }
+  .how-work__cards {
+    margin-top: 50px;
+  }
+  .how-work__card {
+    padding: 35px 30px 45px 64px;
+  }
+  .how-work__card:nth-child(3n) {
+    border-right: none;
+    padding: 35px 64px 45px 30px;
+  }
+  .how-work__card_title {
+    font-size: 24px;
+  }
+  .how-work__card_num {
+    width: 60px;
+    height: 60px;
+  }
+  .how-work__card_text {
     font-size: 16px;
   }
   .partners__slide {

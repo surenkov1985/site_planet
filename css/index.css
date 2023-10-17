@@ -121,6 +121,9 @@
 .about .h2 {
   margin-bottom: 35px;
 }
+.about__content {
+  gap: 50px;
+}
 .about__top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -156,6 +159,8 @@
 .about__text_bottom {
   padding-left: 20px;
   gap: 10px 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .about__img {
   border-radius: 20px;
@@ -1004,9 +1009,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 80px 60px;
   border-radius: 7px;
   border: 1px solid var(--main-green-color);
+  height: 370px;
+}
+.services__card_img img {
+  width: 60%;
 }
 .services__card_text {
   font-size: 20px;
@@ -1018,6 +1026,92 @@
   border-color: #006235;
   -webkit-transform: perspective(500px) translateZ(2px);
           transform: perspective(500px) translateZ(2px);
+}
+
+.numbers__top {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 140px;
+}
+.numbers__top img {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numbers__title {
+  font-family: var(--title-font);
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  background: var(--white-color);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.numbers__content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.numbers__content_right {
+  width: 60%;
+}
+.numbers__content_right .numbers__item:first-child {
+  width: 40%;
+}
+.numbers__content_right .numbers__item:last-child {
+  width: 45%;
+}
+.numbers__content_left {
+  width: 28%;
+}
+.numbers__content_left .numbers__item_title {
+  text-align: left;
+}
+.numbers__content_left .numbers__item_subtitle {
+  text-align: left;
+}
+.numbers__content_left .numbers__item_text {
+  text-align: left;
+}
+.numbers__item_title {
+  color: #000;
+  font-family: var(--title-font);
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 0.8;
+  text-transform: uppercase;
+  text-align: right;
+}
+.numbers__item_subtitle {
+  color: #000;
+  font-family: var(--title-font);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0.4;
+  text-transform: uppercase;
+  text-align: right;
+}
+.numbers__item_text {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin-top: 18px;
+  padding-top: 5px;
+  border-top: 1px solid var(--main-green-color);
 }
 
 .how-work__row {
@@ -1044,6 +1138,60 @@
 }
 .how-work__row_list li::marker {
   color: var(--main-green-color);
+}
+.how-work__cards {
+  margin-top: 100px;
+  border-bottom: 1px solid var(--dark-color);
+}
+.how-work__card {
+  width: 33.3333333333%;
+  border-top: 1px solid var(--dark-color);
+  border-right: 1px solid var(--dark-color);
+  padding: 40px 35px 55px 64px;
+}
+.how-work__card:nth-child(3n) {
+  border-right: none;
+  padding: 40px 64px 55px 35px;
+}
+.how-work__card_title {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #000;
+  font-family: var(--title-font);
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 90px;
+  gap: 10px;
+}
+.how-work__card_num {
+  color: var(--main-green-color);
+  font-weight: 500;
+  width: 72px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 149, 81, 0.2);
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.how-work__card_text {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.44px;
 }
 
 .partners {

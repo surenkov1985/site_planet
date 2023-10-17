@@ -191,6 +191,7 @@
   }
   .about__img {
     border-radius: 10px;
+    width: 100%;
   }
   .about__img.wide {
     width: 100%;
@@ -214,6 +215,13 @@
   }
   .about__quoting_title {
     font-size: 20px;
+  }
+  .about__text blockquote {
+    padding-left: 10px;
+  }
+  .about__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .first .h2 {
     margin-bottom: 40px;
@@ -292,6 +300,11 @@
     font-size: 16px;
     width: 64.1741071429%;
   }
+  .training__text.small {
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .training__more {
     margin-top: 10px;
   }
@@ -308,6 +321,64 @@
     overflow: hidden;
     isolation: isolate;
   }
+  .services .h2 {
+    margin-bottom: 30px;
+  }
+  .services__content {
+    grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+    gap: 30px 20px;
+  }
+  .services__card_img {
+    height: 300px;
+  }
+  .services__card_text {
+    font-size: 16px;
+  }
+  .numbers__top {
+    margin-bottom: 40px;
+  }
+  .numbers__title {
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .numbers__title img {
+    width: 95%;
+  }
+  .numbers__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+  }
+  .numbers__content_right {
+    width: 100%;
+  }
+  .numbers__content_right .numbers__item:first-child {
+    width: 40%;
+  }
+  .numbers__content_left {
+    width: 60%;
+  }
+  .numbers__content_left .numbers__item_title {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_subtitle {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_text {
+    text-align: left;
+  }
+  .numbers__item_title {
+    font-size: 72px;
+  }
+  .numbers__item_subtitle {
+    font-size: 16px;
+  }
+  .numbers__item_text {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
   .how-work__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -322,6 +393,31 @@
   }
   .how-work__row_list li {
     font-size: 16px;
+  }
+  .how-work__cards {
+    margin-top: 30px;
+  }
+  .how-work__card {
+    width: 50%;
+    padding: 25px 30px 35px 30px;
+  }
+  .how-work__card:nth-child(3) {
+    border-right: 1px solid var(--dark-color);
+    padding: 25px 30px 35px 30px;
+  }
+  .how-work__card:nth-child(2n) {
+    border-right: none;
+    padding: 25px 30px 35px 30px;
+  }
+  .how-work__card_title {
+    font-size: 18px;
+  }
+  .how-work__card_num {
+    width: 45px;
+    height: 45px;
+  }
+  .how-work__card_text {
+    font-size: 14px;
   }
   .partners__slider_pagination {
     margin-top: 10px;

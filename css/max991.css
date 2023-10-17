@@ -94,6 +94,9 @@
   .about__top .h3 {
     font-size: 26px;
   }
+  .about__img {
+    width: 40%;
+  }
   .about__img.wide {
     width: 55%;
   }
@@ -199,14 +202,103 @@
     padding: 20px 18px;
     height: 80px;
   }
+  .training__top {
+    margin-bottom: 30px;
+  }
   .training__text {
     font-size: 18px;
   }
   .training__text_border {
     padding-bottom: 0px;
   }
+  .services .h2 {
+    margin-bottom: 40px;
+  }
+  .services__content {
+    grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+    gap: 40px 25px;
+  }
+  .services__card_img {
+    height: 300px;
+  }
+  .services__card_text {
+    font-size: 16px;
+  }
+  .numbers__top {
+    margin-bottom: 50px;
+  }
+  .numbers__title {
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .numbers__title img {
+    width: 95%;
+  }
+  .numbers__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+  }
+  .numbers__content_right {
+    width: 100%;
+  }
+  .numbers__content_right .numbers__item:first-child {
+    width: 40%;
+  }
+  .numbers__content_right .numbers__item:last-child {
+    width: 45%;
+  }
+  .numbers__content_left {
+    width: 40%;
+  }
+  .numbers__content_left .numbers__item_title {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_subtitle {
+    text-align: left;
+  }
+  .numbers__content_left .numbers__item_text {
+    text-align: left;
+  }
+  .numbers__item_title {
+    font-size: 80px;
+  }
+  .numbers__item_subtitle {
+    font-size: 16px;
+  }
+  .numbers__item_text {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
   .how-work__row_title {
     padding-left: 0px;
+  }
+  .how-work__cards {
+    margin-top: 40px;
+  }
+  .how-work__card {
+    width: 50%;
+    padding: 30px 30px 45px 48px;
+  }
+  .how-work__card:nth-child(3) {
+    border-right: 1px solid var(--dark-color);
+    padding: 30px 30px 45px 48px;
+  }
+  .how-work__card:nth-child(2n) {
+    border-right: none;
+    padding: 30px 48px 45px 30px;
+  }
+  .how-work__card_title {
+    font-size: 20px;
+  }
+  .how-work__card_num {
+    width: 55px;
+    height: 55px;
+  }
+  .how-work__card_text {
+    font-size: 14px;
   }
   .presentation_circle {
     -webkit-transform: translateX(30%) translateY(20%);
