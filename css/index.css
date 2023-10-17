@@ -434,6 +434,9 @@
 .projects .h2 {
   margin-bottom: 100px;
 }
+.projects h1 {
+  padding-top: 43px;
+}
 .projects__slider {
   overflow: visible;
 }
@@ -461,6 +464,29 @@
 }
 .projects__slider_pagination .swiper-pagination-bullet-active {
   background: var(--main-green-color);
+}
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 508px);
+  grid-auto-flow: row;
+  gap: 15px;
+}
+.projects__grid_item:nth-child(3) {
+  grid-row: span 2;
+}
+.projects__grid_item:last-child {
+  grid-column: span 2;
+}
+.projects__desc {
+  padding-top: 64px;
+  padding-right: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+.projects__desc_text {
+  margin-bottom: 40px;
 }
 .projects__slide {
   position: relative;
@@ -513,6 +539,53 @@
   font-weight: 600;
   line-height: 118.4%;
   letter-spacing: 0.44px;
+}
+.projects__pagination {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.projects__pagination ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.projects__pagination ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgba(0, 149, 81, 0.5);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+  text-align: center;
+  -webkit-transition: all var(--transition-duration);
+  transition: all var(--transition-duration);
+  width: 72px;
+  height: 72px;
+}
+.projects__pagination ul a:hover {
+  color: var(--main-green-color);
+}
+.projects__pagination ul a.active {
+  border-radius: 50%;
+  border: 1px solid var(--main-green-color);
+  color: var(--main-green-color);
+  pointer-events: none;
 }
 
 .banner {

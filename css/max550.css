@@ -55,6 +55,34 @@
   .numbers__title img {
     width: 95%;
   }
+  .projects h1 {
+    padding-top: 0px;
+  }
+  .projects__desc {
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  .projects__desc_text {
+    margin-bottom: 25px;
+  }
+  .projects__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    gap: 15px;
+  }
+  .projects__pagination {
+    margin-top: 25px;
+  }
+  .projects__pagination ul {
+    gap: 15px;
+  }
+  .projects__pagination ul a {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+  }
 }
 @media (max-width: 550px) {
   .container {

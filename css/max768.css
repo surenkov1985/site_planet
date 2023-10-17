@@ -264,6 +264,37 @@
   .team__slide_role {
     font-size: 16px;
   }
+  .projects h1 {
+    padding-top: 0px;
+  }
+  .projects__desc {
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  .projects__desc_text {
+    margin-bottom: 25px;
+  }
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    gap: 15px;
+  }
+  .projects__grid_item:nth-child(3) {
+    grid-row: span 2;
+  }
+  .projects__grid_item:last-child {
+    grid-column: span 1;
+  }
+  .projects__pagination {
+    margin-top: 25px;
+  }
+  .projects__pagination ul a {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+  }
   .present__row {
     gap: 50px;
   }

@@ -211,6 +211,19 @@
                 padding: 6px 35px 6px 20px;
             }
         }
+
+        & h1 {
+            padding-top: 40px;
+        }
+
+        &__desc {
+            // padding-top: 55px;
+            font-size: 22px;
+    
+            &_text {
+                margin-bottom: 35px;
+            }
+        }
     }
 
     .present {
@@ -663,6 +676,15 @@
     
             &_name {
                 font-size: 20px;
+            }
+        }
+
+        &__desc {
+            // padding-top: 55px;
+            font-size: 20px;
+    
+            &_text {
+                margin-bottom: 35px;
             }
         }
     }
@@ -1168,6 +1190,21 @@
                 font-size: 18px;
             }
         }
+
+        & h1 {
+            padding-top: 35px;
+        }
+
+        &__desc {
+            padding-top: 45px;
+            padding-right: 20px;
+            font-size: 18px;
+    
+            &_text {
+                margin-bottom: 30px;
+            }
+        }
+
     }
 
     .present {

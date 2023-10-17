@@ -281,6 +281,30 @@
   .projects__slide_name {
     font-size: 16px;
   }
+  .projects h1 {
+    padding-top: 20px;
+  }
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    grid-auto-flow: row;
+    gap: 15px;
+  }
+  .projects__grid_item:nth-child(3) {
+    grid-row: span 2;
+  }
+  .projects__grid_item:last-child {
+    grid-column: span 2;
+  }
+  .projects__pagination {
+    margin-top: 30px;
+  }
+  .projects__pagination ul a {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+  }
   .present__row {
     width: 100%;
     max-width: 800px;

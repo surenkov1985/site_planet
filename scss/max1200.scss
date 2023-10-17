@@ -386,6 +386,43 @@
                 font-size: 16px;
             }
         }
+
+        & h1 {
+            padding-top: 20px;	
+        }
+
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 400px);
+            grid-auto-flow: row;
+            gap: 15px;
+    
+            &_item {
+    
+                &:nth-child(3) {
+                    grid-row: span 2;
+                }
+    
+                &:last-child {
+                    grid-column: span 2;
+                }
+            }
+        }
+
+        &__pagination {
+            margin-top: 30px;
+    
+            & ul {
+                
+    
+                & a {
+                    font-size: 20px;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
     }
 
     .present {
