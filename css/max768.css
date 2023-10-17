@@ -37,6 +37,9 @@
   .false-phone-link {
     display: none;
   }
+  .h4 {
+    font-size: 24px;
+  }
   .sm-link {
     font-size: 17px;
   }
@@ -294,6 +297,45 @@
     font-size: 16px;
     width: 50px;
     height: 50px;
+  }
+  .project .h2 {
+    font-size: 34px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+  }
+  .project .about__text {
+    gap: 20px;
+  }
+  .project .about__content {
+    margin-bottom: 40px;
+  }
+  .project__name {
+    font-size: 18px;
+  }
+  .project__addr p {
+    font-size: 16px;
+  }
+  .project__date {
+    font-size: 16px;
+  }
+  .project__desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+  .project__desc_icon {
+    margin-top: 15px;
+    font-size: 14px;
+    gap: 5px;
+  }
+  .project__desc_icon img {
+    width: 100px;
+  }
+  .project__gallery {
+    padding-top: 30px;
+  }
+  .project__slider {
+    margin-top: 35px;
   }
   .present__row {
     gap: 50px;

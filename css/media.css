@@ -5,6 +5,11 @@
   .h4 {
     font-size: 38px;
   }
+  .text {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.44px;
+  }
   .dark-link {
     font-size: 28px;
   }
@@ -138,6 +143,26 @@
   }
   .projects__desc_text {
     margin-bottom: 35px;
+  }
+  .project .h2 {
+    font-size: 66px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+  }
+  .project .about__text {
+    gap: 60px;
+  }
+  .project .about__content {
+    margin-bottom: 100px;
+  }
+  .project__name {
+    font-size: 22px;
+  }
+  .project__addr p {
+    font-size: 20px;
+  }
+  .project__date {
+    font-size: 20px;
   }
   .present__text p {
     font-size: 20px;
@@ -294,6 +319,12 @@
   .h4 {
     font-size: 36px;
   }
+  .text {
+    font-size: 18px;
+  }
+  .subtitle {
+    font-size: 22px;
+  }
   .link {
     font-size: 18px;
   }
@@ -414,6 +445,43 @@
   }
   .projects__desc_text {
     margin-bottom: 35px;
+  }
+  .project .h2 {
+    font-size: 60px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .project .about__text {
+    gap: 55px;
+  }
+  .project .about__content {
+    margin-bottom: 90px;
+  }
+  .project__name {
+    font-size: 20px;
+  }
+  .project__addr p {
+    font-size: 18px;
+  }
+  .project__date {
+    font-size: 18px;
+  }
+  .project__desc {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .project__desc_title {
+    padding-bottom: 15px;
+  }
+  .project__desc_icon {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .project__gallery {
+    padding-top: 80px;
+  }
+  .project__slider {
+    margin-top: 70px;
   }
   .present__text p {
     font-size: 18px;
@@ -595,6 +663,9 @@
   .h4 {
     font-size: 32px;
   }
+  .text {
+    font-size: 16px;
+  }
   .btn {
     font-size: 16px;
   }
@@ -741,6 +812,26 @@
   }
   .projects__desc_text {
     margin-bottom: 30px;
+  }
+  .project .h2 {
+    font-size: 54px;
+    padding-top: 25px;
+    margin-bottom: 45px;
+  }
+  .project .about__text {
+    gap: 50px;
+  }
+  .project .about__content {
+    margin-bottom: 80px;
+  }
+  .project__name {
+    font-size: 20px;
+  }
+  .project__addr p {
+    font-size: 18px;
+  }
+  .project__date {
+    font-size: 18px;
   }
   .present__text p {
     font-size: 16px;

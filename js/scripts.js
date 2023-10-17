@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     directionsSlider();
     teamSlider();
     projectsSlider();
+    projectSlider();
 
     const scrollOptions = {
 		rootMargin: "100px",

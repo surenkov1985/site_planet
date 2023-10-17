@@ -2,6 +2,9 @@
   :root {
     --gap: 80px;
   }
+  .text {
+    font-size: 16px;
+  }
   .footer-phone-link {
     font-size: 30px;
   }
@@ -216,6 +219,59 @@
   }
   .projects__grid_item:last-child {
     grid-column: span 1;
+  }
+  .project .h2 {
+    font-size: 42px;
+    padding-top: 0px;
+    margin-bottom: 35px;
+  }
+  .project .about__text {
+    gap: 30px;
+  }
+  .project .about__content {
+    margin-bottom: 40px;
+  }
+  .project__name {
+    font-size: 18px;
+  }
+  .project__addr p {
+    font-size: 16px;
+  }
+  .project__date {
+    font-size: 16px;
+  }
+  .project__desc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project__desc_text {
+    width: 100%;
+  }
+  .project__desc_title {
+    width: auto;
+    border-bottom: none;
+  }
+  .project__desc_title-col {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .project__desc_icon {
+    margin-top: 15px;
+    font-size: 16px;
+    gap: 5px;
+  }
+  .project__gallery {
+    padding-top: 50px;
+  }
+  .project__slider {
+    margin-top: 45px;
   }
   .field {
     padding-top: 55px;

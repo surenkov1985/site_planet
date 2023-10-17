@@ -199,6 +199,20 @@
         font-size: 28px;
     }
 
+    .text {
+        font-size: 14px;
+
+        & p {
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
     .dark-link {
         font-size: 20px;
     }
@@ -422,6 +436,61 @@
                     height: 60px;
                 }
             }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 50px;
+            padding-top: 25px;
+            margin-bottom: 45px;
+        }
+
+        & .about__text {
+            gap: 40px;
+        }
+    
+        & .about__content {
+            margin-bottom: 60px;
+        }
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+        &__date {
+            font-size: 16px;
+        }
+
+        &__desc {
+            padding-top: 70px;
+            padding-bottom: 70px;
+            gap: 40px;
+
+            &_title {
+                width: 70%;
+            }
+
+            &_icon {
+                margin-top: 15px;
+                font-size: 16px;
+                gap: 5px;
+            }
+        }
+
+        &__gallery {
+            padding-top: 70px;
+        }
+
+        &__slider {
+            margin-top: 60px;
         }
     }
 

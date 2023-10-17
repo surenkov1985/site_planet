@@ -4,6 +4,10 @@
         --gap: 80px;
     }
 
+    .text {
+        font-size: 16px;
+    }
+
     .footer-phone-link {
         font-size: 30px;
     }
@@ -320,6 +324,72 @@
                     grid-column: span 1;
                 }
             }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 42px;
+            padding-top: 0px;
+            margin-bottom: 35px;
+        }
+
+        & .about__text {
+            gap: 30px;
+        }
+    
+        & .about__content {
+            margin-bottom: 40px;
+        }
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+        &__date {
+            font-size: 16px;
+        }
+
+        &__desc {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            gap: 30px;
+            flex-direction: column;
+
+            &_text {
+                width: 100%;
+            }
+
+            &_title {
+                width: auto;
+                border-bottom: none;
+                
+                &-col {
+                    flex-direction: row;
+                }
+
+            }
+
+            &_icon {
+                margin-top: 15px;
+                font-size: 16px;
+                gap: 5px;
+            }
+        }
+
+        &__gallery {
+            padding-top: 50px;
+        }
+
+        &__slider {
+            margin-top: 45px;
         }
     }
 

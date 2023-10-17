@@ -98,6 +98,8 @@
                 }
             }
         }
+
+        
     }
 }
 
@@ -564,6 +566,23 @@
             // &_name {
             //     font-size: 16px;
             // }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 24px;
+            padding-top: 25px;
+            margin-bottom: 45px;
+        }
+
+        &__slider {
+
+            &_pagination {
+                margin-top: 30px;
+                visibility: hidden;
+            }
         }
     }
 

@@ -44,6 +44,10 @@
         display: none;
     }
 
+    .h4 {
+        font-size: 24px;
+    }
+
     .sm-link {
         font-size: 17px;
     }
@@ -360,6 +364,64 @@
                     height: 50px;
                 }
             }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 34px;
+            padding-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        
+
+        & .about__text {
+            gap: 20px;
+        }
+    
+        & .about__content {
+            margin-bottom: 40px;
+        }
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+        &__date {
+            font-size: 16px;
+        }
+
+        &__desc {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            gap: 30px;
+
+
+            &_icon {
+                margin-top: 15px;
+                font-size: 14px;
+                gap: 5px;
+
+                & img {
+                    width: 100px;
+                }
+            }
+        }
+
+        &__gallery {
+            padding-top: 30px;
+        }
+
+        &__slider {
+            margin-top: 35px;
         }
     }
 

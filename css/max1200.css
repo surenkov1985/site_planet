@@ -152,6 +152,15 @@
   .h4 {
     font-size: 28px;
   }
+  .text {
+    font-size: 14px;
+  }
+  .text p:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
   .dark-link {
     font-size: 20px;
   }
@@ -304,6 +313,45 @@
     font-size: 20px;
     width: 60px;
     height: 60px;
+  }
+  .project .h2 {
+    font-size: 50px;
+    padding-top: 25px;
+    margin-bottom: 45px;
+  }
+  .project .about__text {
+    gap: 40px;
+  }
+  .project .about__content {
+    margin-bottom: 60px;
+  }
+  .project__name {
+    font-size: 18px;
+  }
+  .project__addr p {
+    font-size: 16px;
+  }
+  .project__date {
+    font-size: 16px;
+  }
+  .project__desc {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 40px;
+  }
+  .project__desc_title {
+    width: 70%;
+  }
+  .project__desc_icon {
+    margin-top: 15px;
+    font-size: 16px;
+    gap: 5px;
+  }
+  .project__gallery {
+    padding-top: 70px;
+  }
+  .project__slider {
+    margin-top: 60px;
   }
   .present__row {
     width: 100%;

@@ -8,6 +8,14 @@
         font-size: 38px;
     }
 
+    .text {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.44px;
+    }
+
+    
+
     .dark-link {
         font-size: 28px;
     }
@@ -223,6 +231,37 @@
             &_text {
                 margin-bottom: 35px;
             }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 66px;
+            padding-top: 30px;
+            margin-bottom: 60px;
+        }
+
+        & .about__text {
+            gap: 60px;
+        }
+    
+        & .about__content {
+            margin-bottom: 100px;
+        }
+
+        &__name {
+            font-size: 22px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 20px;
+            }
+        }
+
+        &__date {
+            font-size: 20px;
         }
     }
 
@@ -504,6 +543,14 @@
         font-size: 36px;
     }
 
+    .text {
+        font-size: 18px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
     .link {
         font-size: 18px;
     }
@@ -686,6 +733,59 @@
             &_text {
                 margin-bottom: 35px;
             }
+        }
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 60px;
+            padding-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        & .about__text {
+            gap: 55px;
+        }
+    
+        & .about__content {
+            margin-bottom: 90px;
+        }
+
+        &__name {
+            font-size: 20px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 18px;
+            }
+        }
+
+        &__date {
+            font-size: 18px;
+        }
+
+        &__desc {
+            padding-top: 80px;
+            padding-bottom: 80px;
+
+            &_title {
+                padding-bottom: 15px;
+            }
+
+            &_icon {
+                margin-top: 20px;
+                font-size: 18px;
+            }
+        }
+
+        &__gallery {
+            padding-top: 80px;
+        }
+
+        &__slider {
+            margin-top: 70px;
         }
     }
 
@@ -1003,6 +1103,10 @@
         font-size: 32px;
     }
 
+    .text {
+        font-size: 16px;
+    }
+
     .btn {
         font-size: 16px;
     }
@@ -1205,6 +1309,37 @@
             }
         }
 
+    }
+
+    .project {
+
+        & .h2 {
+            font-size: 54px;
+            padding-top: 25px;
+            margin-bottom: 45px;
+        }
+
+        & .about__text {
+            gap: 50px;
+        }
+    
+        & .about__content {
+            margin-bottom: 80px;
+        }
+
+        &__name {
+            font-size: 20px;
+        }
+
+        &__addr {
+            & p {
+                font-size: 18px;
+            }
+        }
+
+        &__date {
+            font-size: 18px;
+        }
     }
 
     .present {

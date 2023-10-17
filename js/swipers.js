@@ -278,3 +278,50 @@ function projectsSlider () {
         }
     });
 }
+
+function projectSlider () {
+    const mainSlider = document.querySelector('.project__slider');
+    if (!mainSlider) return;
+
+    const slider = new Swiper(mainSlider, {
+        loop: false,
+        rewind: true,
+        speed: 700,
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+        // allowTouchMove: false,
+        mousewheel:false,
+        pagination: {
+            el: '.project__slider_pagination',
+            clickable:true
+        },
+        breakpoints: {
+            400:{
+                slidesPerView: 1.2,
+                spaceBetween: 20,
+                
+            },
+            550:{
+                slidesPerView: 1.8,
+                spaceBetween: 20,
+                
+            },
+            768:{
+                slidesPerView: 2.2,
+                spaceBetween: 20
+            },
+            991:{
+                slidesPerView: 2.8,
+                spaceBetween: 30
+            },
+            1200: {
+                slidesPerView: 3.1,
+                spaceBetween: 40
+            },
+            1400: {
+                slidesPerView: 3.5,
+                spaceBetween: 50
+            }
+        }
+    });
+}
