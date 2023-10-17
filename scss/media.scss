@@ -123,6 +123,12 @@
                 font-size: 24px;
             }
         }
+        &__text {
+
+            &_list {
+                font-size: 20px;
+            }
+        }
     }
 
     .directions {
@@ -633,6 +639,13 @@
     
             &_title {
                 font-size: 22px;
+            }
+        }
+
+        &__text {
+
+            &_list {
+                font-size: 18px;
             }
         }
     }
@@ -1206,6 +1219,15 @@
             & blockquote {
                 font-size: 18px;
             }
+
+            &_list {
+                font-size: 16px;
+            }
+
+            &.border-block  {
+                padding: 30px 20px;
+            }
+            
         }
     }
 

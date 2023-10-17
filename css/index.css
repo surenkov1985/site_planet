@@ -122,7 +122,7 @@
   margin-bottom: 35px;
 }
 .about__content {
-  gap: 50px;
+  gap: 32px;
 }
 .about__top {
   -webkit-box-pack: justify;
@@ -148,6 +148,21 @@
           flex-grow: 1;
   gap: 30px;
 }
+.about__text.border-block {
+  padding: 36px 26px;
+  border: 1px solid var(--main-green-color);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .about__text blockquote {
   font-size: 20px;
   font-weight: 400;
@@ -161,6 +176,29 @@
   gap: 10px 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+.about__text_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about__text_list li {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.about__text_list li:not(:first-child) {
+  border-top: 1px solid var(--main-green-color);
+}
+.about__bottom {
+  margin-top: 90px;
 }
 .about__img {
   border-radius: 20px;
@@ -219,6 +257,35 @@
   font-weight: 600;
   letter-spacing: 0.52px;
   margin-bottom: 16px;
+}
+.about__services_block {
+  margin-top: 53px;
+  padding-top: 105px;
+  padding-bottom: 120px;
+}
+.about__services_block .h2 {
+  margin-bottom: 76px;
+}
+.about__services_item {
+  font-family: var(--title-font);
+  color: var(--white-color);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 170.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 40px;
+  border-top: 1px solid var(--white-color);
+}
+.about__services_item:last-child {
+  border-top: 1px solid var(--white-color);
 }
 
 .directions {

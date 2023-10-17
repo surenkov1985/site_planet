@@ -69,6 +69,9 @@
   .about__quoting_title {
     font-size: 24px;
   }
+  .about__text_list {
+    font-size: 20px;
+  }
   .directions .h4 {
     margin-bottom: 90px;
   }
@@ -376,6 +379,9 @@
   }
   .about__quoting_title {
     font-size: 22px;
+  }
+  .about__text_list {
+    font-size: 18px;
   }
   .directions .h4 {
     margin-bottom: 70px;
@@ -741,6 +747,12 @@
   }
   .about__text blockquote {
     font-size: 18px;
+  }
+  .about__text_list {
+    font-size: 16px;
+  }
+  .about__text.border-block {
+    padding: 30px 20px;
   }
   .directions .h4 {
     margin-bottom: 60px;

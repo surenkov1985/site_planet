@@ -127,7 +127,7 @@
     }
 
     &__content {
-        gap: 50px;
+        gap: 32px;
     }
 
     &__top {
@@ -151,6 +151,15 @@
         flex-grow: 1;
         gap: 30px;
 
+        &.border-block  {
+            padding: 36px 26px;
+            border: 1px solid var(--main-green-color);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
         & blockquote {
             font-size: 20px;
             font-weight: 400;
@@ -166,6 +175,30 @@
             flex-wrap: wrap;
         }
 
+        &_list {
+            display: flex;
+            flex-direction: column;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            & li {
+                padding-top: 12px;
+                padding-bottom: 12px;
+
+                &:not(:first-child) {
+                    border-top: 1px solid var(--main-green-color);
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        margin-top: 90px;
+        &_text {
+
+        }
     }
 
     &__img {
@@ -228,6 +261,40 @@
             font-weight: 600;
             letter-spacing: 0.52px;
             margin-bottom: 16px;
+        }
+    }
+
+    &__services {
+        &_block {
+            margin-top: 53px;
+            padding-top: 105px;
+            padding-bottom: 120px;
+
+            & .h2 {
+                margin-bottom: 76px;
+            }
+        }
+
+        &_list {
+
+            
+        }
+
+        &_item {
+            font-family: var(--title-font);
+            color: var(--white-color);
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 170.5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 40px;
+            border-top: 1px solid var(--white-color);
+
+            &:last-child {
+                border-top: 1px solid var(--white-color);
+            }
         }
     }
 }
