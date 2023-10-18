@@ -48,6 +48,10 @@
         font-size: 24px;
     }
 
+    .h3 {
+        font-size: 26px;
+    }
+
     .sm-link {
         font-size: 17px;
     }
@@ -254,10 +258,47 @@
                 // font-size: 16px;
                 padding-left: 10px;
             }
+
+            &.border-block {
+                order: 1;
+                gap: 20px;
+            }
+
+            &_list {
+                font-size: 16px;
+            }
+        }
+
+        &__bottom {
+            margin-top: 40px;
         }
 
         &__content {
             flex-wrap: wrap;
+        }
+
+        &__services {
+
+            &_block {
+                margin-top: 30px;
+                padding-top: 45px;
+                padding-bottom: 55px;
+
+                & .h2 {
+                    margin-bottom: 30px;
+                }
+            }
+
+            &_item {
+                font-size: 22px;
+                padding-right: 0px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                & img {
+                    width: 30px;
+                }
+            }
         }
     }
 

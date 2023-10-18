@@ -129,6 +129,23 @@
                 font-size: 20px;
             }
         }
+
+        &__services {
+
+            &_block {
+                padding-top: 95px;
+                padding-bottom: 110px;
+
+                & .h2 {
+                    margin-bottom: 65px;
+                }
+            }
+
+            &_item {
+                font-size: 48px;
+                padding-right: 40px;
+            }
+        }
     }
 
     .directions {
@@ -646,6 +663,28 @@
 
             &_list {
                 font-size: 18px;
+            }
+        }
+
+        &__bottom {
+            margin-top: 80px;
+        }
+
+        &__services {
+
+            &_block {
+                margin-top: 48px;
+                padding-top: 90px;
+                padding-bottom: 100px;
+
+                & .h2 {
+                    margin-bottom: 60px;
+                }
+            }
+
+            &_item {
+                font-size: 40px;
+                padding-right: 40px;
             }
         }
     }
@@ -1228,6 +1267,28 @@
                 padding: 30px 20px;
             }
             
+        }
+
+        &__bottom {
+            margin-top: 70px;
+        }
+
+        &__services {
+
+            &_block {
+                margin-top: 45px;
+                padding-top: 80px;
+                padding-bottom: 90px;
+
+                & .h2 {
+                    margin-bottom: 55px;
+                }
+            }
+
+            &_item {
+                font-size: 38px;
+                padding-right: 40px;
+            }
         }
     }
 

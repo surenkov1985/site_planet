@@ -119,6 +119,36 @@
   .about__quoting_title {
     font-size: 20px;
   }
+  .about__text_list {
+    font-size: 14px;
+  }
+  .about__text_list li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .about__text.border-block {
+    padding: 25px 15px;
+  }
+  .about__bottom {
+    margin-top: 50px;
+  }
+  .about__services_block {
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .about__services_block .h2 {
+    margin-bottom: 40px;
+  }
+  .about__services_item {
+    font-size: 26px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .about__services_item img {
+    width: 35px;
+  }
   .directions .h4 {
     margin-bottom: 40px;
   }

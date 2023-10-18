@@ -249,6 +249,14 @@
                 margin-bottom: 10px;
             }
         }
+
+        &__text {
+            padding: 20px 15px;
+        }
+
+        &__bottom {
+            margin-top: 30px;
+        }
     }
 
     .first {
@@ -888,6 +896,33 @@
         }
 
     }
+
+    .about {
+
+        &__services {
+
+            &_block {
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                & .h2 {
+                    margin-bottom: 35px;
+                }
+            }
+
+            &_item {
+                font-size: 18px;
+                padding-right: 0px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                & img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+
     .present {
 
         &__row {

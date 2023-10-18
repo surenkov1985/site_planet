@@ -220,6 +220,21 @@
   .about__text_bottom {
     padding-left: 0;
   }
+  .about__bottom {
+    margin-top: 60px;
+  }
+  .about__services_block {
+    margin-top: 40px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .about__services_block .h2 {
+    margin-bottom: 45px;
+  }
+  .about__services_item {
+    font-size: 32px;
+    padding-right: 30px;
+  }
   .directions .h4 {
     margin-bottom: 50px;
   }

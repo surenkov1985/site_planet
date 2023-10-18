@@ -171,6 +171,49 @@
                 font-size: 20px;
             }
         }
+
+        &__text {
+            &_list {
+                font-size: 14px;
+
+                & li {
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+            }
+
+            &.border-block {
+                padding: 25px 15px;
+            }
+        }
+
+        &__bottom {
+            margin-top: 50px;
+        }
+
+        &__services {
+
+            &_block {
+                margin-top: 40px;
+                padding-top: 60px;
+                padding-bottom: 70px;
+
+                & .h2 {
+                    margin-bottom: 40px;
+                }
+            }
+
+            &_item {
+                font-size: 26px;
+                padding-right: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                & img {
+                    width: 35px;
+                }
+            }
+        }
     }
 
     .directions {
