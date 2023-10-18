@@ -1602,3 +1602,29 @@
 .contacts__item a:hover svg path {
   fill: rgba(255, 255, 255, 0.8);
 }
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.calc__list {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  border-top: 1px solid var(--dark-color);
+  border-bottom: 1px solid var(--dark-color);
+  gap: 60px 105px;
+}
+.calc__item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  width: calc(16.6666666667% - 90px);
+}
+.calc__form-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
