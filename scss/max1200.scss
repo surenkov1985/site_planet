@@ -24,7 +24,7 @@
     .footer-phone-link {
         font-size: 35px;
     }
-    
+
     .footer-email-link {
         font-size: 30px;
     }
@@ -40,6 +40,7 @@
         //     height: 100%;
         // }
     }
+
     .phone-link {
         display: flex;
     }
@@ -62,13 +63,14 @@
         &_logo {
             width: 145px;
         }
+
         &__nav {
             &_list {
                 display: none;
             }
         }
-        &
-        &__right {
+
+        & &__right {
             margin-left: auto;
         }
 
@@ -83,6 +85,7 @@
             & .search-btn {
                 width: 20px;
                 height: 20px;
+
                 & svg {
                     width: 100%;
                     height: 100%;
@@ -108,6 +111,7 @@
                 max-height: 320px;
                 align-content: space-between;
             }
+
             &_scroll {
                 position: fixed;
                 right: 48px;
@@ -121,31 +125,37 @@
 
         &__contacts {
             order: 1;
+
             &_scls {
                 order: 2;
             }
         }
 
-        
+
     }
+
     .fs {
         min-height: 680px;
         max-height: 750px;
+
         &__slider {
             & .swiper-pagination-bullet {
                 height: 33px;
             }
+
             &_pagination {
                 top: 97px !important;
                 left: 48px !important;
             }
         }
+
         &__slide {
 
             &_title {
                 padding: 1px 0 90px 48px;
-               
+
             }
+
             &_content {
                 & h1 {
                     font-size: 54px;
@@ -153,6 +163,7 @@
                     margin-top: 105px;
                 }
             }
+
             &_text p {
                 font-size: 14px;
             }
@@ -172,7 +183,7 @@
             }
         }
     }
-    
+
     .partners {
         &__slide {
             padding: 48px 28px 44px;
@@ -228,20 +239,21 @@
     .breadcrumbs {
         padding-top: 40px;
         padding-bottom: 20px;
-    
+
         &__list {
             gap: 15px;
         }
-    
+
         &__item {
             gap: 15px;
             font-size: 16px;
-            
-    
+
+
         }
     }
 
     .about {
+
         & .h2 {
             margin-bottom: 25px;
         }
@@ -252,6 +264,7 @@
 
         &__top {
             gap: 50px;
+
             & .role {
                 font-size: 18px;
             }
@@ -266,32 +279,32 @@
             &.wide {
                 width: 60%;
             }
-            
+
         }
 
         &__quoting {
-    
+
             & .before {
                 margin-bottom: 24px;
                 width: 60px;
                 height: 60px;
             }
-    
+
             & .after {
                 margin-top: 10px;
                 width: 60px;
                 height: 60px;
             }
-            
+
             & p {
                 font-size: 16px;
             }
-    
+
             &_title {
                 font-size: 20px;
             }
         }
-        
+
         &__text {
             & blockquote {
                 font-size: 16px;
@@ -299,6 +312,12 @@
 
             &_bottom {
                 padding-left: 0;
+            }
+
+            &_points {
+                font-size: 14px;
+                gap: 12px;
+                width: 90%;
             }
         }
 
@@ -323,19 +342,38 @@
                 padding-right: 30px;
             }
         }
+
+        &__desc {
+            margin-top: 45px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+
+            &_text {
+                padding-top: 15px;
+            }
+
+            &_bottom {
+                margin-top: 40px;
+            }
+        }
+
+        &__date {
+            font-size: 14px;
+            margin-top: 35px;
+        }
     }
 
     .directions {
         & .h4 {
             margin-bottom: 50px;
         }
-    
+
         &__slide {
-    
+
             &_title {
                 font-size: 18px;
             }
-    
+
             &_text {
                 margin-bottom: 12px;
                 font-size: 14px;
@@ -347,21 +385,21 @@
         & .h2 {
             margin-bottom: 50px;
         }
-    
+
         &__content {
             gap: 50px;
         }
-    
+
         &__text {
             position: sticky;
             padding-top: 10px;
             padding-bottom: 10px;
-    
+
             &_title {
                 font-size: 20px;
                 margin-bottom: 30px;
             }
-    
+
             & ul {
                 width: 100%;
                 padding: 30px 50px 0 15px;
@@ -373,11 +411,11 @@
     }
 
     .team {
-        
+
         & .h2 {
             margin-bottom: 50px;
         }
-    
+
         &__slide {
             display: flex;
             flex-direction: column;
@@ -386,12 +424,12 @@
             &_content {
                 width: 100%;
             }
-    
+
             &_name {
                 font-size: 24px;
                 margin-bottom: 20px;
             }
-    
+
             &_role {
                 font-size: 16px;
             }
@@ -399,17 +437,17 @@
     }
 
     .projects {
-    
+
         & .h2 {
             margin-bottom: 50px;
         }
-    
+
         &__slide {
 
             &_content {
                 padding: 25px 20px;
             }
-    
+
             &_icon {
                 padding: 5px 25px 5px 15px;
 
@@ -417,14 +455,14 @@
                     width: 100px;
                 }
             }
-    
+
             &_name {
                 font-size: 16px;
             }
         }
 
         & h1 {
-            padding-top: 20px;	
+            padding-top: 20px;
         }
 
         &__grid {
@@ -433,13 +471,13 @@
             grid-template-rows: repeat(3, 400px);
             grid-auto-flow: row;
             gap: 15px;
-    
+
             &_item {
-    
+
                 &:nth-child(3) {
                     grid-row: span 2;
                 }
-    
+
                 &:last-child {
                     grid-column: span 2;
                 }
@@ -448,10 +486,10 @@
 
         &__pagination {
             margin-top: 30px;
-    
+
             & ul {
-                
-    
+
+
                 & a {
                     font-size: 20px;
                     width: 60px;
@@ -472,7 +510,7 @@
         & .about__text {
             gap: 40px;
         }
-    
+
         & .about__content {
             margin-bottom: 60px;
         }
@@ -525,6 +563,7 @@
 
         &__text {
             width: 45%;
+
             & p {
                 font-size: 14px;
                 padding-top: 25px;
@@ -557,6 +596,7 @@
         &__img {
             width: calc(425 / 928 * 100%);
         }
+
         &__item {
             font-size: 16px;
             padding-top: 15px;
@@ -564,10 +604,11 @@
         }
     }
 
-    
+
     .field {
         padding-top: 60px;
         padding-bottom: 105px;
+
         & .h2 {
             margin-bottom: 20px;
         }
@@ -576,10 +617,12 @@
             font-size: 14px;
             margin-bottom: 45px;
         }
+
         &__cards {
             gap: 13px;
-    
+
         }
+
         &__card {
             &_title {
                 font-size: 16px;
@@ -589,7 +632,7 @@
         }
     }
 
-    
+
     .training {
 
         &__top {
@@ -641,7 +684,7 @@
             &_img {
                 height: 300px;
             }
-            
+
             &_text {
                 font-size: 16px;
             }
@@ -663,52 +706,54 @@
         &__content {
             &_right {
                 width: 60%;
-    
+
                 & .numbers__item {
                     // width: 33%;
-    
+
                     &:first-child {
                         width: 40%;
                     }
-    
+
                     &:last-child {
                         width: 45%;
                     }
                 }
+
                 // gap:78px
             }
-    
+
             &_left {
                 width: 28%;
-    
+
                 & .numbers__item {
-    
+
                     &_title {
                         text-align: left;
                     }
-    
+
                     &_subtitle {
                         text-align: left;
                     }
+
                     &_text {
                         text-align: left;
                     }
-    
-                    
-                    
+
+
+
                 }
             }
         }
-    
+
         &__item {
             &_title {
                 font-size: 98px;
             }
-    
+
             &_subtitle {
                 font-size: 18px;
             }
-    
+
             &_text {
                 font-size: 14px;
                 margin-top: 10px;
@@ -724,8 +769,10 @@
             &_title {
                 padding-left: 48px;
             }
+
             &_list {
                 gap: 10px;
+
                 & li {
                     font-size: 14px;
                 }
@@ -796,21 +843,22 @@
             padding: 60px 74px 60px;
             border-radius: 15px;
         }
-    
+
         &__form {
-    
+
             &_fields {
                 gap: 10px;
             }
-    
+
             &_label {
-    
-                & input, & textarea {
+
+                & input,
+                & textarea {
                     padding: 12px 22px;
                     font-size: 14px;
                 }
             }
-    
+
             &_agree {
                 font-size: 13px;
             }
@@ -843,6 +891,11 @@
                 font-size: 12px;
             }
         }
+
+        &__grid {
+            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(260px, auto));
+        }
     }
 
     .mobile {
@@ -873,50 +926,56 @@
                 height: 20px;
             }
         }
+
         &__nav {
 
             &_title {
                 font-size: 18px;
                 margin-bottom: 20px;
             }
+
             &_center {
                 width: calc(1400 / 1792 * 100%);
-                & ul{
+
+                & ul {
                     gap: 20px;
 
-                    & li button  {
+                    & li button {
                         font-size: 24px;
                     }
-                    
+
                 }
             }
 
             &_top {
                 width: calc(1350 / 1792 * 100%);
 
-                & ul{
+                & ul {
                     gap: 15px 50px;
+
                     & li a {
                         padding-right: 10px;
                         font-size: 24px;
+
                         &:hover {
                             padding-left: 5px;
                             padding-right: 5px;
                         }
                     }
-                    
-                    
+
+
                 }
             }
+
             &_bottom {
                 width: calc(1350 / 1792 * 100%);
-               
+
                 & ul {
                     gap: 40px 160px;
 
                     & li a {
                         font-size: 24px;
-                        }
+                    }
                 }
             }
         }
@@ -961,6 +1020,7 @@
 
         &__nav {
             width: calc(1100 / 1792 * 100%);
+
             &_list {
                 gap: 20px;
             }

@@ -56,7 +56,6 @@ img {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -71,15 +70,13 @@ h6 {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus {
@@ -128,7 +125,6 @@ button, label, div {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -185,8 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .swiper-vertical {
-  -ms-touch-action: auto !important;
-      touch-action: auto !important;
+  touch-action: auto !important;
 }
 
 .section-green {

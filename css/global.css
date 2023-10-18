@@ -3,24 +3,17 @@
 }
 
 .btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: var(--title-font);
   padding: 23px 80px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   border-radius: 60px;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
-  -webkit-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
 }
 
@@ -57,16 +50,11 @@
 }
 
 .link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
   color: var(--white-color);
   text-decoration: none;
-  -webkit-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
   color: #FFF;
   font-family: var(--title-font);
@@ -76,13 +64,11 @@
   white-space: nowrap;
 }
 .link svg path {
-  -webkit-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
 }
 .link:hover {
   color: rgba(255, 255, 255, 0.8);
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 .link:hover svg path {
   fill: rgba(255, 255, 255, 0.8);
@@ -102,7 +88,6 @@
   font-size: 17px;
   font-weight: 400;
   text-decoration-line: underline;
-  -webkit-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
 }
 .sm-link:hover {
@@ -114,7 +99,6 @@
   font-family: var(--title-font);
   font-size: 30px;
   font-weight: 500;
-  -webkit-transition: all var(--transition-duration);
   transition: all var(--transition-duration);
 }
 .dark-link:hover {
@@ -136,14 +120,11 @@
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .flex-wrap {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .dark-text {

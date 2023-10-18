@@ -15,8 +15,6 @@
     font-size: 15px;
   }
   .false-phone-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-right: 15px;
     margin-left: 15px;
@@ -119,6 +117,9 @@
   .about__quoting_title {
     font-size: 20px;
   }
+  .about__text {
+    gap: 25px;
+  }
   .about__text_list {
     font-size: 14px;
   }
@@ -128,6 +129,9 @@
   }
   .about__text.border-block {
     padding: 25px 15px;
+  }
+  .about__text_points {
+    font-size: 16px;
   }
   .about__bottom {
     margin-top: 50px;
@@ -148,6 +152,31 @@
   }
   .about__services_item img {
     width: 35px;
+  }
+  .about__desc {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about__desc_row {
+    align-items: flex-start;
+    display: flow-root;
+  }
+  .about__desc_img {
+    width: 37%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .about__desc_text {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .about__desc_bottom {
+    margin-top: 30px;
+  }
+  .about__date {
+    margin-top: 25px;
   }
   .directions .h4 {
     margin-bottom: 40px;
@@ -197,8 +226,7 @@
   .present__row {
     width: 100%;
     max-width: 800px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .present__text {
     width: 45%;
@@ -274,10 +302,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     gap: 30px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .project__desc_text {
     width: 100%;
@@ -287,10 +312,7 @@
     border-bottom: none;
   }
   .project__desc_title-col {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .project__desc_icon {
     margin-top: 15px;
@@ -308,8 +330,7 @@
     padding-bottom: 90px;
   }
   .field__cards {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .field__card {
     width: calc(50% - 8px);
@@ -353,8 +374,7 @@
     width: 95%;
   }
   .numbers__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 50px;
   }
   .numbers__content_right {
@@ -418,8 +438,7 @@
     font-size: 14px;
   }
   .presentation_circle {
-    -webkit-transform: translateX(30%) translateY(20%);
-            transform: translateX(30%) translateY(20%);
+    transform: translateX(30%) translateY(20%);
   }
   .feedback__content {
     padding: 55px 60px 55px;
@@ -464,8 +483,6 @@
   }
   .mobile .logo {
     width: 145px !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .mobile__close_btn {
@@ -515,9 +532,7 @@
   }
   .mobile__foot .container {
     gap: 30px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
   }
   .mobile__foot_contacts {
     width: 100%;
@@ -525,8 +540,7 @@
   .mobile__foot_contacts ul {
     font-size: 16px;
     gap: 15px 20px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .dark-link {
     font-size: 18px;
