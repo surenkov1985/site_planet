@@ -678,4 +678,19 @@
   .submenu__body {
     padding-bottom: 40px;
   }
+  .map {
+    height: 650px;
+    border-radius: 20px;
+  }
+  .contacts__content_block {
+    padding: 50px 45px 40px;
+    top: 60px;
+    left: 60px;
+  }
+  .contacts .h3 {
+    margin-bottom: 40px;
+  }
+  .contacts__list {
+    font-size: 18px;
+  }
 }

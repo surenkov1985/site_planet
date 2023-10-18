@@ -99,16 +99,19 @@ function setMap() {
 				function setMapCenter() {
 					mapContainer.offsetWidth < 992 ? map.setCenter(mapCoord) : map.setCenter(mapCenter);
 
-					if (!mapContainer.closest(".contacts")) {
+					if (mapContainer.closest(".contacts")) {
 						const centerCoord = map.getGlobalPixelCenter();
 
 						// смещаем центр карты
 
 						if (window.innerWidth > 1200) {
-							centerCoord[0] -= 350;
+							centerCoord[0] -= 250;
 							centerCoord[1] += 0;
 						} else if (window.innerWidth > 991) {
-							centerCoord[0] -= 250;
+							centerCoord[0] -= 150;
+							centerCoord[1] += 0;
+						} else if (window.innerWidth > 768) {
+							centerCoord[0] -= 100;
 							centerCoord[1] += 0;
 						} else {
 							centerCoord[0] -= 0;

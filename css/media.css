@@ -330,6 +330,19 @@
   .submenu__body {
     padding-bottom: 100px;
   }
+  .map {
+    height: 810px;
+    border-radius: 20px;
+  }
+  .contacts__content_block {
+    padding: 65px 70px 48px;
+  }
+  .contacts .h3 {
+    margin-bottom: 50px;
+  }
+  .contacts__list {
+    font-size: 28px;
+  }
 }
 @media (max-width: 1550px) {
   .h2 {
@@ -699,6 +712,19 @@
   }
   .submenu__body {
     padding-bottom: 80px;
+  }
+  .map {
+    height: 810px;
+    border-radius: 20px;
+  }
+  .contacts__content_block {
+    padding: 60px 65px 40px;
+  }
+  .contacts .h3 {
+    margin-bottom: 50px;
+  }
+  .contacts__list {
+    font-size: 22px;
   }
 }
 @media (max-width: 1440px) {
@@ -1161,5 +1187,18 @@
   }
   .submenu__body {
     padding-bottom: 60px;
+  }
+  .map {
+    height: 790px;
+    border-radius: 20px;
+  }
+  .contacts__content_block {
+    padding: 60px 65px 40px;
+  }
+  .contacts .h3 {
+    margin-bottom: 45px;
+  }
+  .contacts__list {
+    font-size: 20px;
   }
 }
