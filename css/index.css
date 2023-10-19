@@ -2049,6 +2049,7 @@
 .calc__table_body td .numb-btns span svg {
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 .calc__table_item-name {
   -webkit-box-align: center;
