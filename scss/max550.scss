@@ -232,6 +232,14 @@
 
         }
 
+        &__content {
+
+            &.border {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+        }
+
         &__quoting {
             margin-top: 20px;
 

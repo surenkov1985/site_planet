@@ -260,6 +260,11 @@
 
         &__content {
             gap: 30px;
+
+            &.border {
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
         }
 
         &__top {

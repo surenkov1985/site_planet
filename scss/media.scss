@@ -1505,6 +1505,14 @@
             }
         }
 
+        &__content {
+
+            &.border {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+
         &__quoting {
 
             & .before {

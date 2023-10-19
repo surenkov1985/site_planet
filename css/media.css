@@ -907,6 +907,10 @@
   .about__top .h3 {
     font-size: 32px;
   }
+  .about__content.border {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .about__quoting .before {
     margin-bottom: 24px;
     width: 65px;

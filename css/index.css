@@ -124,6 +124,12 @@
 .about__content {
   gap: 32px;
 }
+.about__content.border {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid var(--dark-color);
+  border-bottom: 1px solid var(--dark-color);
+}
 .about__top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

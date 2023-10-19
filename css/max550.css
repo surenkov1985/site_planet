@@ -183,6 +183,10 @@
   .about__img.wide {
     width: 100%;
   }
+  .about__content.border {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
   .about__quoting {
     margin-top: 20px;
   }

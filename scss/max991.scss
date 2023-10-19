@@ -156,6 +156,14 @@
 
         }
 
+        &__content {
+
+            &.border {
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
+        }
+
         &__quoting {
 
             & .before {

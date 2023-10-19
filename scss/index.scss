@@ -132,6 +132,13 @@
 
     &__content {
         gap: 32px;
+
+        &.border {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            border-top: 1px solid var(--dark-color);
+            border-bottom: 1px solid var(--dark-color);
+        }
     }
 
     &__top {
@@ -1537,6 +1544,12 @@
             transform: perspective(500px) translateZ(2px);
         }
     }
+}
+
+/////////////////////// SERVICE ////////////////////
+
+.service {
+    
 }
 
 //////////////////////// NUMBERS ///////////////////  

@@ -103,6 +103,10 @@
   .about__img.wide {
     width: 55%;
   }
+  .about__content.border {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
   .about__quoting .before {
     margin-bottom: 20px;
     width: 50px;

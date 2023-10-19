@@ -186,6 +186,10 @@
   .about__content {
     gap: 30px;
   }
+  .about__content.border {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
   .about__top {
     gap: 50px;
   }
