@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	};
 	const observerTarget = document.querySelectorAll(".main section");
 	if (observerTarget.length > 1) {
-		console.log(observerTarget);
+		// console.log(observerTarget);
 		const scrollObserver = new IntersectionObserver(scrollCallback, scrollOptions);
 		scrollObserver.observe(observerTarget[1]);
 		let points;

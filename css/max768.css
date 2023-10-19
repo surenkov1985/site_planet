@@ -1,7 +1,11 @@
 @media (max-width: 850px) {
   .advantages .container {
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     gap: 60px;
   }
   .advantages__list {
@@ -44,7 +48,8 @@
   }
   .head {
     padding: 21px 35px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .head__left {
     width: auto;
@@ -62,15 +67,24 @@
     margin-left: 0;
   }
   .head-fixed .false-phone-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto;
     margin-right: 0;
   }
   .head__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 24px;
     width: 100%;
   }
@@ -78,6 +92,8 @@
     display: block;
   }
   .head__bottom .phone-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .foot {
@@ -104,16 +120,25 @@
   }
   .foot__bottom_list {
     max-height: 1000px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .foot__bottom_recall {
-    order: 3;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
   .foot__links {
-    order: 4;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
   }
   .foot__copyrait {
-    order: 5;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
   }
   .fs {
     min-height: 700px;
@@ -153,9 +178,15 @@
   }
   .about__top {
     gap: 10px;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .about__top .role {
     font-size: 16px;
@@ -195,7 +226,9 @@
     padding-left: 10px;
   }
   .about__text.border-block {
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     gap: 20px;
   }
   .about__text_list {
@@ -205,7 +238,8 @@
     margin-top: 40px;
   }
   .about__content {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .about__services_block {
     margin-top: 30px;
@@ -216,10 +250,12 @@
     margin-bottom: 30px;
   }
   .about__services_item {
-    font-size: 22px;
     padding-right: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+  .about__services_item a {
+    font-size: 22px;
   }
   .about__services_item img {
     width: 30px;
@@ -230,16 +266,25 @@
     padding-bottom: 30px;
   }
   .about__desc_row {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
   }
   .about__desc_img {
     width: 100%;
     margin-right: 0;
     margin-bottom: 0;
-    order: 1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .about__desc_text {
     width: 100%;
@@ -382,11 +427,14 @@
     padding-bottom: 30px;
   }
   .consultants__head {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .consultants__head_contacts {
     gap: 10px 40px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .feed {
     margin-top: 45px;
@@ -442,7 +490,8 @@
     width: 95%;
   }
   .numbers__content {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 50px;
   }
   .numbers__content_right {
@@ -475,7 +524,8 @@
     padding-top: 5px;
   }
   .how-work__row {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 30px;
   }
   .how-work__row_title {
@@ -519,7 +569,10 @@
     opacity: 0;
   }
   .presentation__container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 170px;
   }
   .presentation__content {
@@ -533,13 +586,15 @@
     width: 480px;
     padding-bottom: 0;
     height: 480px;
-    transform: translateX(37%) translateY(50%);
+    -webkit-transform: translateX(37%) translateY(50%);
+            transform: translateX(37%) translateY(50%);
   }
   .presentation__img {
     width: 80%;
   }
   .feedback__content {
     padding: 55px 40px 55px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(27.75%, rgba(0, 0, 0, 0.65)), color-stop(99.99%, rgba(0, 0, 0, 0))), url(../img/feegback.png), lightgray -20px -246.5px/460.668% 182.056% no-repeat;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 27.75%, rgba(0, 0, 0, 0) 99.99%), url(../img/feegback.png), lightgray -20px -246.5px/460.668% 182.056% no-repeat;
   }
   .feedback__content_form {
@@ -568,10 +623,13 @@
     gap: 20px;
   }
   .mobile__head .container {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .mobile__head_left {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 15px 30px;
   }
   .mobile__body {
@@ -582,6 +640,8 @@
   }
   .mobile .logo {
     width: 145px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .mobile__close_btn {
@@ -635,7 +695,8 @@
   .mobile__foot_contacts ul {
     font-size: 16px;
     gap: 10px 20px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .dark-link {
     font-size: 16px;
@@ -645,7 +706,9 @@
     padding-bottom: 20px;
   }
   .submenu__title {
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     font-size: 20px;
     gap: 7px;
   }
@@ -689,5 +752,71 @@
   }
   .contacts__list {
     font-size: 18px;
+  }
+  .calc__list {
+    gap: 30px;
+  }
+  .calc__item {
+    font-size: 14px;
+    width: calc(50% - 15px);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .calc__form-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .calc__table {
+    min-width: 600px;
+  }
+  .calc__table-container {
+    overflow-x: auto;
+  }
+  .calc__table_head th {
+    padding: 15px 20px 15px;
+    font-size: 14px;
+  }
+  .calc__table_head th:first-child {
+    padding: 15px 20px 15px;
+  }
+  .calc__table_head th:last-child {
+    padding: 15px 20px 15px 20px;
+  }
+  .calc__table_body td {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+  .calc__table_body td:first-child {
+    padding: 15px 20px;
+  }
+  .calc__table_body td:last-child {
+    padding: 15px 20px 15px 20px;
+  }
+  .calc__table_body td .numb {
+    padding: 15px;
+    border-radius: 12px;
+  }
+  .calc__table_body td .numb::-webkit-outer-spin-button, .calc__table_body td .numb::-webkit-inner-spin-button {
+    display: none;
+  }
+  .calc__table_item-name {
+    gap: 10px 20px;
+  }
+  .calc__table_item-name img {
+    width: 30px;
+    height: 30px;
+  }
+  .calc__table_title {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+  .calc__table_foot td {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+  .calc__table_foot .row {
+    gap: 30px;
   }
 }

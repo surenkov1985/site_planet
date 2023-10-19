@@ -300,10 +300,14 @@
             }
 
             &_item {
-                font-size: 22px;
+                
                 padding-right: 0px;
                 padding-top: 5px;
                 padding-bottom: 5px;
+
+                & a {
+                    font-size: 22px;
+                }
 
                 & img {
                     width: 30px;
@@ -1042,6 +1046,106 @@
 
         &__item {
             // width: calc(50% - 10px);
+        }
+    }
+
+    .calc {
+
+        &__list {
+            gap: 30px;
+        }
+
+        &__item {
+            font-size: 14px;
+            width: calc((100% / 2) - 15px);
+            align-items: center;
+            text-align: center;
+        }
+
+        &__form {
+
+            &-container {
+                padding-top: 35px;
+                padding-bottom: 35px;
+            }
+        }
+
+        &__table {
+            min-width: 600px;
+
+            &-container {
+                overflow-x: auto;
+            }
+    
+            &_head {
+    
+                & th {
+                    padding: 15px 20px 15px;
+                    font-size: 14px;
+    
+                    &:first-child {
+                        padding: 15px 20px 15px;
+                    }
+    
+                    &:last-child {
+                        padding: 15px 20px 15px 20px;
+                    }
+                }
+                
+            }
+    
+            &_body {
+    
+                & td {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                    
+    
+                    &:first-child {
+                        padding: 15px 20px;
+                    }
+    
+                    &:last-child {
+                        padding: 15px 20px 15px 20px;
+                    }
+    
+                    & .numb {
+                        padding: 15px;
+                        border-radius: 12px;
+
+                        &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+                            display: none;
+                        }
+                    }
+    
+                    
+                }
+            }
+            &_item-name {
+                gap: 10px 20px;
+
+                & img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+    
+            &_title {
+                padding: 20px 30px;
+                font-size: 16px;
+            }
+    
+            &_foot {
+    
+                & td {
+                    padding: 20px 30px;
+                    font-size: 16px;
+                }
+    
+                & .row {
+                    gap: 30px;
+                }
+            }
         }
     }
 }

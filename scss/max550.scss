@@ -874,6 +874,28 @@
             // width: calc(50% - 10px);
         }
     }
+
+    .calc {
+
+        &__list {
+            gap: 20px;
+        }
+
+        &__item {
+            font-size: 14px;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__form {
+
+            &-container {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
 }
 
 @media (max-width: 420px) {
