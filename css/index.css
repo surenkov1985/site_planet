@@ -1462,8 +1462,8 @@
 .services__card:hover {
   color: #006235;
   border-color: #006235;
-  -webkit-transform: perspective(500px) translateZ(2px);
-          transform: perspective(500px) translateZ(2px);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .service__content {

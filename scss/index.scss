@@ -1579,7 +1579,8 @@
         &:hover {
             color: darken($color: #009551, $amount: 10%);
             border-color: darken($color: #009551, $amount: 10%);
-            transform: perspective(500px) translateZ(2px);
+            // transform: perspective(500px) translateZ(3px);
+            transform: scale(1.01);
         }
     }
 }
