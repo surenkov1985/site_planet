@@ -303,7 +303,11 @@
         }
 
         &__text {
-            padding: 20px 15px;
+
+            &.border {
+                padding: 20px 15px;
+            }
+            
         }
 
         &__bottom {
