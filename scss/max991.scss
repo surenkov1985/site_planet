@@ -1097,4 +1097,35 @@
             }
         }
     }
+
+    .documents {
+
+        & .h2 {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    
+        &__content {
+            gap: 40px;
+        }
+    
+        &__filter {
+    
+            & .filter {
+    
+                &__form {
+                    gap: 15px;
+                }
+            }
+        }
+    
+        &__list {
+            grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+            gap: 30px 30px;
+        }
+    
+        &__link {
+            gap: 15px;
+        }
+    }
 }

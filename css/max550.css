@@ -668,6 +668,32 @@
   .service__bottom_title {
     margin-bottom: 10px;
   }
+  .documents .h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .documents__content {
+    gap: 30px;
+  }
+  .documents__filter .filter__form {
+    gap: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .documents__filter .filter__form .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .documents__list {
+    grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+    gap: 20px;
+  }
+  .documents__link {
+    gap: 10px;
+  }
 }
 @media (max-width: 420px) {
   :root {

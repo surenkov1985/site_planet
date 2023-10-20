@@ -719,4 +719,21 @@
   .request__form_agree {
     font-size: 14px;
   }
+  .documents .h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .documents__content {
+    gap: 40px;
+  }
+  .documents__filter .filter__form {
+    gap: 15px;
+  }
+  .documents__list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+    gap: 30px 30px;
+  }
+  .documents__link {
+    gap: 15px;
+  }
 }

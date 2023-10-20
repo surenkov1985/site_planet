@@ -1249,4 +1249,35 @@
             }
         }
     }
+
+    .documents {
+
+        & .h2 {
+            margin-top: 20px;
+            margin-bottom: 45px;
+        }
+    
+        &__content {
+            gap: 55px;
+        }
+    
+        &__filter {
+    
+            & .filter {
+    
+                &__form {
+                    gap: 15px;
+                }
+            }
+        }
+    
+        &__list {
+            grid-template-columns: repeat(auto-fill, minmax(280px, auto));
+            gap: 45px 30px;
+        }
+    
+        &__link {
+            gap: 15px;
+        }
+    }
 }

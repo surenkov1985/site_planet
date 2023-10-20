@@ -602,7 +602,7 @@
 
     .services {
         overflow: hidden;
-        
+
         & .h2 {
             margin-bottom: 30px;
         }
@@ -1225,6 +1225,38 @@
                 }
                 
             }
+        }
+    }
+    .documents {
+
+        & .h2 {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    
+        &__content {
+            gap: 40px;
+        }
+    
+        &__filter {
+    
+            & .filter {
+    
+                &__form {
+                    gap: 10px 15px;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    
+        &__list {
+            grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+            gap: 20px;
+        }
+    
+        &__link {
+            gap: 10px;
         }
     }
 }

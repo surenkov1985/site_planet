@@ -2117,6 +2117,8 @@
     }
 }
 
+/////////////// CONTACTS ///////////////
+
 .map {
     width: 100%;
     height: 816px;
@@ -2173,6 +2175,8 @@
         }
     }
 }
+
+/////////////// CALC ///////////////
 
 .calc {
     display: flex;
@@ -2377,6 +2381,8 @@
     }
 }
 
+/////////////// FAQ ///////////////
+
 .faq {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -2450,6 +2456,8 @@
     }
 }
 
+/////////////// REQUEST ///////////////
+
 .request {
 
     & .container {
@@ -2510,4 +2518,114 @@
         }
     }
 }
+
+/////////////// DOCUMENTS ///////////////
+
+.documents {
+
+    & .h2 {
+        margin-top: 43px;
+        margin-bottom: 83px;
+    }
+
+    &__content {
+        flex-direction: column;
+        gap: 75px;
+    }
+
+    &__filter {
+
+        & .filter {
+            width: 100%;
+
+            &__form {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+            
+                &_label {
+                    position: relative;
+
+                    & input {
+                        position: absolute;
+                        visibility: hidden;
+
+                        &:checked+.btn {
+                            background: var(--main-green-color);
+                            color: var(--white-color);
+                            pointer-events: none;
+
+                            &:hover {
+                                background: rgba($color: #009551, $alpha: 0.5);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, auto));
+        gap: 60px 30px;
+    }
+
+    &__link {
+        color: var(--dark-color);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        transition: all var(--transition-duration);
+
+        &_img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            border-radius: 7px;
+            overflow: hidden;
+            isolation: isolate;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all var(--transition-duration);
+            }
+
+            &::after {
+                position: absolute;
+                content: url(/img/icons/open-photo.svg);
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: rgba(#1E1E1E, 0.6);
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: all var(--transition-duration);
+            }
+        }
+
+        &:hover {
+
+            & .documents__link_img {
+
+                &::after {
+                    opacity: 1;
+                }
+
+                & img {
+                    transform: scale(1.03);
+                }
+            }
+        }
+    }
+}
+
+
 

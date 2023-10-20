@@ -963,6 +963,44 @@
             }
         }
     }
+
+    .documents {
+
+        & .h2 {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+    
+        &__content {
+            gap: 30px;
+        }
+    
+        &__filter {
+    
+            & .filter {
+    
+                &__form {
+                    gap: 10px;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+
+                    & .btn {
+                        padding: 12px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    
+        &__list {
+            grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+            gap: 20px;
+        }
+    
+        &__link {
+            gap: 10px;
+        }
+    }
 }
 
 @media (max-width: 420px) {

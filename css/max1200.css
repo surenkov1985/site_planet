@@ -831,4 +831,21 @@
     width: 30px;
     height: 30px;
   }
+  .documents .h2 {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+  .documents__content {
+    gap: 55px;
+  }
+  .documents__filter .filter__form {
+    gap: 15px;
+  }
+  .documents__list {
+    grid-template-columns: repeat(auto-fill, minmax(280px, auto));
+    gap: 45px 30px;
+  }
+  .documents__link {
+    gap: 15px;
+  }
 }

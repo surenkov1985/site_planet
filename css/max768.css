@@ -870,4 +870,26 @@
     width: 22px;
     height: 22px;
   }
+  .documents .h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .documents__content {
+    gap: 40px;
+  }
+  .documents__filter .filter__form {
+    gap: 10px 15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .documents__list {
+    grid-template-columns: repeat(auto-fill, minmax(220px, auto));
+    gap: 20px;
+  }
+  .documents__link {
+    gap: 10px;
+  }
 }
