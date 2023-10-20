@@ -601,6 +601,8 @@
     }
 
     .services {
+        overflow: hidden;
+        
         & .h2 {
             margin-bottom: 30px;
         }
@@ -608,6 +610,17 @@
         &__content {
             grid-template-columns: repeat(auto-fill, minmax(220px, auto));
             gap: 30px 20px;
+        }
+
+        &__slider {
+            overflow: visible;
+        }
+
+        &__navigation {
+
+            &_prev, &_next {
+                display: none;
+            }
         }
 
         &__card {
@@ -1153,6 +1166,64 @@
                 & .row {
                     gap: 30px;
                 }
+            }
+        }
+    }
+
+    .service {
+
+        &__content {
+            flex-direction: column;
+            gap: 40px 25px;
+        }
+
+        &__images {
+            width: 100%;
+        }
+
+        &__points {
+            width: 100%;
+            gap: 15px;
+        }
+
+        &__point {
+
+            &_marker {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        &__bottom {
+            padding: 20px 25px;
+
+            &_title {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .faq {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    
+        & .h2 {
+            margin-bottom: 30px;
+        }
+    
+        & .accordion {
+            
+            &__title {
+    
+                & button {
+                    font-size: 20px;
+
+                    & svg {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+                
             }
         }
     }

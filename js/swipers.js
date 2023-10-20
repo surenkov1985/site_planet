@@ -325,3 +325,54 @@ function projectSlider () {
         }
     });
 }
+
+function servicesSlider () {
+    const mainSlider = document.querySelector('.services__slider');
+    if (!mainSlider) return;
+
+    const slider = new Swiper(mainSlider, {
+        loop: false,
+        rewind: true,
+        speed: 700,
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+        // allowTouchMove: false,
+        mousewheel:false,
+        // pagination: {
+        //     el: '.project__slider_pagination',
+        //     clickable:true
+        // },
+        navigation: {
+            prevEl: ".services__navigation_prev",
+            nextEl: ".services__navigation_next",
+        },
+        breakpoints: {
+            400:{
+                slidesPerView: 1.2,
+                spaceBetween: 20,
+                
+            },
+            550:{
+                slidesPerView: 1.8,
+                spaceBetween: 20,
+                
+            },
+            768:{
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            991:{
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            1240: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1400: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            }
+        }
+    });
+}

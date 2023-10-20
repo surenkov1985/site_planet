@@ -469,12 +469,21 @@
     overflow: hidden;
     isolation: isolate;
   }
+  .services {
+    overflow: hidden;
+  }
   .services .h2 {
     margin-bottom: 30px;
   }
   .services__content {
     grid-template-columns: repeat(auto-fill, minmax(220px, auto));
     gap: 30px 20px;
+  }
+  .services__slider {
+    overflow: visible;
+  }
+  .services__navigation_prev, .services__navigation_next {
+    display: none;
   }
   .services__card_img {
     height: 300px;
@@ -822,5 +831,43 @@
   }
   .calc__table_foot .row {
     gap: 30px;
+  }
+  .service__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 25px;
+  }
+  .service__images {
+    width: 100%;
+  }
+  .service__points {
+    width: 100%;
+    gap: 15px;
+  }
+  .service__point_marker {
+    width: 20px;
+    height: 20px;
+  }
+  .service__bottom {
+    padding: 20px 25px;
+  }
+  .service__bottom_title {
+    margin-bottom: 10px;
+  }
+  .faq {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .faq .h2 {
+    margin-bottom: 30px;
+  }
+  .faq .accordion__title button {
+    font-size: 20px;
+  }
+  .faq .accordion__title button svg {
+    width: 22px;
+    height: 22px;
   }
 }

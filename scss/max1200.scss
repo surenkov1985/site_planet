@@ -194,6 +194,35 @@
             }
         }
     }
+
+    .request {
+
+        & .container {
+            gap: 30px;
+        }
+    
+        &__content {
+            width: 100%;
+            max-width: 1050px;
+        }
+        
+        &__form {
+    
+            & .form__content {
+                max-height: 250px;
+            }
+    
+            & input {
+                border-radius: 30px;
+                font-size: 14px;
+                padding: 15px 20px;
+            }
+    
+            &_agree {
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -208,6 +237,10 @@
 
     .h4 {
         font-size: 28px;
+    }
+
+    .h5 {
+        font-size: 22px;
     }
 
     .text {
@@ -689,6 +722,20 @@
             gap: 40px 25px;
         }
 
+        &__slider {
+            &-container {
+                gap: 40px;
+            }
+        }
+
+        &__navigation {
+
+            &_prev, &_next {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
         &__card {
             &_img {
                 height: 300px;
@@ -1146,6 +1193,59 @@
                 & .row {
                     gap: 40px;
                 }
+            }
+        }
+    }
+
+    .service {
+
+        &__content {
+            gap: 50px 32px;
+        }
+
+        &__points {
+            gap: 30px;
+        }
+
+        &__point {
+
+            &_marker {
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        &__bottom {
+            padding: 35px 45px;
+
+            &_title {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .faq {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    
+        & .h2 {
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    
+        & .accordion {
+            
+            &__title {
+    
+                & button {
+                    font-size: 28px;
+
+                    & svg {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                
             }
         }
     }

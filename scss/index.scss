@@ -1501,11 +1501,47 @@
         margin-bottom: 150px;
     }
 
+    & .h3 {
+        margin-bottom: 80px;
+    }
+
     &__content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, auto));
         gap: 50px 30px;
         justify-content: center;
+
+        &.swiper {
+            padding: 10px;
+        }
+    }
+
+    &__slider {
+        &-container {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+    }
+
+    &__navigation {
+
+        &_prev, &_next {
+            width: 72px;
+            height: 72px;
+            flex-shrink: 0;
+            transition: all var(--transition-duration);
+            cursor: pointer;
+
+            & img {
+                width: 100%;
+                height: 100%;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
     }
 
     &__card {
@@ -1549,7 +1585,58 @@
 /////////////////////// SERVICE ////////////////////
 
 .service {
-    
+    &__content {
+        gap: 80px 32px  ;
+        justify-content: space-between;
+    }
+
+    &__points {
+        width: calc(50% - 30px);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__images {
+        width: calc(50% - 30px);
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        overflow: auto;
+        isolation: isolate;
+    }
+
+    &__point {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+
+        &_marker {
+            flex-shrink: 0;
+        }
+
+        &_content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+    &__bottom {
+        padding: 45px 55px;
+        border-radius: 7px;
+
+        &_title {
+            color: rgba(255, 255, 255, 0.60);
+            margin-bottom: 20px;
+        }
+    }
 }
 
 //////////////////////// NUMBERS ///////////////////  
@@ -2289,3 +2376,138 @@
         }
     }
 }
+
+.faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    & .h2 {
+        margin-top: 42px;
+        margin-bottom: 80px;
+    }
+
+    &__item {
+        border-top: 1px solid var(--white-color);
+
+        &.active {
+
+            & .accordion__title {
+                & svg {
+                    transform: rotate(45deg);
+                }
+            }
+
+            & .accordion__text {
+                visibility: visible;
+                max-height: 1000px;
+                // padding-top: 10px;
+                // padding-bottom: 10px;
+                margin-bottom: 10px;
+                transition: all var(--transition-duration) ease;
+            }
+        }
+    }
+
+    & .accordion {
+        
+        &__title {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            & button {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: var(--title-font);
+                font-size: 45px;
+                font-weight: 500;
+                line-height: 110%;
+                cursor: pointer;
+                
+
+                & svg {
+                    transition: all var(--transition-duration);
+                }
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+            
+        }
+
+        &__text {
+            padding: 15px 20px 15px 0;
+            transition: all .3s;
+            height: auto;
+            overflow: hidden;
+            max-height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+.request {
+
+    & .container {
+        gap: 50px;
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 1050px;
+    }
+    
+    &__form {
+
+        & .form__content {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-height: 250px;
+            gap: 25px;
+        }
+
+        & input {
+            width: calc(50% - 10px);
+            border-radius: 30px;
+            border: 1px solid rgba(#1E1E1E, 0.4);
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            padding: 18px 22px;
+
+            &::placeholder {
+                color: rgba(#1E1E1E, 0.4);
+            }
+        }
+
+        &_agree {
+            margin-top: 25px;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            
+            & input {
+                width: 0;
+                visibility: hidden;
+                color: rgba(#1E1E1E, 0.4);
+                
+            }
+
+            & a {
+                color: var(--main-green-color);
+                transition: all var(--transition-duration);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+            }
+        }
+    }
+}
+

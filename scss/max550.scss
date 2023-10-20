@@ -101,9 +101,45 @@
 
 
     }
+
+    .request {
+    
+        &__content {
+            width: 100%;
+            max-width: 1050px;
+        }
+        
+        &__form {
+    
+            & .form__content {
+                max-height: 2000px;
+                gap: 15px;
+            }
+    
+            & input {
+                width: 100%;
+                border-radius: 30px;
+                font-size: 14px;
+                padding: 15px 20px;
+            }
+    
+            &_agree {
+                font-size: 14px;
+                margin-top: 10px;
+
+                & input {
+                    height: 0;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 550px) {
+
+    .h5 {
+        font-size: 18px;
+    }
 
     .container {
         padding-left: 20px;
@@ -901,6 +937,29 @@
             &-container {
                 padding-top: 30px;
                 padding-bottom: 30px;
+            }
+        }
+    }
+
+    .service {
+
+        &__content {
+            gap: 20px;
+        }
+
+        &__point {
+
+            &_marker {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        &__bottom {
+            padding: 20px 25px;
+
+            &_title {
+                margin-bottom: 10px;
             }
         }
     }

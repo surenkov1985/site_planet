@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	teamSlider();
 	projectsSlider();
 	projectSlider();
+	servicesSlider();
 
 	loadScript(window.location.protocol + "//api-maps.yandex.ru/2.1/?lang=ru_RU", setMap);
 
@@ -187,6 +188,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		$(formResult).text(formResultValue);
 	});
+
+	$(document).on("click", ".accordion__title", function(){
+		const accordion = $(this).closest(".accordion__item");
+
+		if ($(accordion).hasClass("active")) {
+			$(accordion).removeClass("active");
+		} else {
+			$(".accordion__item").each((ind, item) => {
+				$(item).removeClass("active");
+			});
+			
+			$(accordion).addClass("active");
+		}
+
+		
+	})
 });
 
 function setMap() {

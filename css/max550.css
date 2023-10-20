@@ -83,8 +83,32 @@
     width: 40px;
     height: 40px;
   }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 2000px;
+    gap: 15px;
+  }
+  .request__form input {
+    width: 100%;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  .request__form_agree {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .request__form_agree input {
+    height: 0;
+  }
 }
 @media (max-width: 550px) {
+  .h5 {
+    font-size: 18px;
+  }
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -630,6 +654,19 @@
   .calc__form-container {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .service__content {
+    gap: 20px;
+  }
+  .service__point_marker {
+    width: 15px;
+    height: 15px;
+  }
+  .service__bottom {
+    padding: 20px 25px;
+  }
+  .service__bottom_title {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 420px) {

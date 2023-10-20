@@ -1,9 +1,15 @@
 @media (max-width: 1650px) {
+  .h2 {
+    font-size: 70px;
+  }
   .h3 {
     font-size: 48px;
   }
   .h4 {
     font-size: 38px;
+  }
+  .h5 {
+    font-size: 30px;
   }
   .text {
     font-size: 20px;
@@ -398,6 +404,38 @@
   .calc__table_foot .row {
     gap: 50px;
   }
+  .service__points {
+    gap: 38px;
+  }
+  .faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .faq .h2 {
+    margin-top: 38px;
+    margin-bottom: 75px;
+  }
+  .faq .accordion__title button {
+    font-size: 42px;
+  }
+  .request .container {
+    gap: 50px;
+  }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 250px;
+  }
+  .request__form input {
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 18px 22px;
+  }
+  .request__form_agree {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1550px) {
   .h2 {
@@ -408,6 +446,9 @@
   }
   .h4 {
     font-size: 36px;
+  }
+  .h5 {
+    font-size: 28px;
   }
   .text {
     font-size: 18px;
@@ -836,6 +877,38 @@
   .calc__table_foot .row {
     gap: 50px;
   }
+  .service__points {
+    gap: 36px;
+  }
+  .faq {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .faq .h2 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .faq .accordion__title button {
+    font-size: 38px;
+  }
+  .request .container {
+    gap: 40px;
+  }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 250px;
+  }
+  .request__form input {
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 18px 22px;
+  }
+  .request__form_agree {
+    font-size: 18px;
+  }
 }
 @media (max-width: 1440px) {
   .h2 {
@@ -846,6 +919,9 @@
   }
   .h4 {
     font-size: 32px;
+  }
+  .h5 {
+    font-size: 26px;
   }
   .text {
     font-size: 16px;
@@ -1135,6 +1211,13 @@
   .services__card_text {
     font-size: 18px;
   }
+  .services__slider-container {
+    gap: 50px;
+  }
+  .services__navigation_prev, .services__navigation_next {
+    width: 65px;
+    height: 65px;
+  }
   .numbers__top {
     margin-bottom: 100px;
   }
@@ -1380,5 +1463,41 @@
   }
   .calc__table_foot .row {
     gap: 40px;
+  }
+  .service__points {
+    gap: 34px;
+  }
+  .faq {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .faq .h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .faq .accordion__title button {
+    font-size: 32px;
+  }
+  .faq .accordion__title button svg {
+    width: 30px;
+    height: 30px;
+  }
+  .request .container {
+    gap: 30px;
+  }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 250px;
+  }
+  .request__form input {
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 18px 20px;
+  }
+  .request__form_agree {
+    font-size: 16px;
   }
 }

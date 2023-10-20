@@ -141,6 +141,24 @@
   .partners__slide img {
     width: 135px;
   }
+  .request .container {
+    gap: 30px;
+  }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 250px;
+  }
+  .request__form input {
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  .request__form_agree {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1200px) {
   .h2 {
@@ -151,6 +169,9 @@
   }
   .h4 {
     font-size: 28px;
+  }
+  .h5 {
+    font-size: 22px;
   }
   .text {
     font-size: 14px;
@@ -476,6 +497,13 @@
     grid-template-columns: repeat(auto-fill, minmax(240px, auto));
     gap: 40px 25px;
   }
+  .services__slider-container {
+    gap: 40px;
+  }
+  .services__navigation_prev, .services__navigation_next {
+    width: 50px;
+    height: 50px;
+  }
   .services__card_img {
     height: 300px;
   }
@@ -771,5 +799,36 @@
   }
   .calc__table_foot .row {
     gap: 40px;
+  }
+  .service__content {
+    gap: 50px 32px;
+  }
+  .service__points {
+    gap: 30px;
+  }
+  .service__point_marker {
+    width: 28px;
+    height: 28px;
+  }
+  .service__bottom {
+    padding: 35px 45px;
+  }
+  .service__bottom_title {
+    margin-bottom: 15px;
+  }
+  .faq {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .faq .h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .faq .accordion__title button {
+    font-size: 28px;
+  }
+  .faq .accordion__title button svg {
+    width: 30px;
+    height: 30px;
   }
 }

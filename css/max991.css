@@ -5,6 +5,9 @@
   .text {
     font-size: 16px;
   }
+  .h5 {
+    font-size: 20px;
+  }
   .footer-phone-link {
     font-size: 30px;
   }
@@ -374,6 +377,13 @@
     grid-template-columns: repeat(auto-fill, minmax(220px, auto));
     gap: 40px 25px;
   }
+  .services__slider-container {
+    gap: 30px;
+  }
+  .services__navigation_prev, .services__navigation_next {
+    width: 50px;
+    height: 50px;
+  }
   .services__card_img {
     height: 300px;
   }
@@ -656,5 +666,57 @@
   }
   .calc__table_foot .row {
     gap: 30px;
+  }
+  .service__content {
+    gap: 40px 25px;
+  }
+  .service__points {
+    gap: 20px;
+  }
+  .service__point_marker {
+    width: 20px;
+    height: 20px;
+  }
+  .service__bottom {
+    padding: 25px 30px;
+  }
+  .service__bottom_title {
+    margin-bottom: 15px;
+  }
+  .faq {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .faq .h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  .faq .accordion__title button {
+    font-size: 24px;
+  }
+  .faq .accordion__title button svg {
+    width: 25px;
+    height: 25px;
+  }
+  .request .container {
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .request__content {
+    width: 100%;
+    max-width: 1050px;
+  }
+  .request__form .form__content {
+    max-height: 250px;
+    gap: 20px;
+  }
+  .request__form input {
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  .request__form_agree {
+    font-size: 14px;
   }
 }

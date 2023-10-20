@@ -8,6 +8,10 @@
         font-size: 16px;
     }
 
+    .h5 {
+        font-size: 20px;
+    }
+
     .footer-phone-link {
         font-size: 30px;
     }
@@ -541,6 +545,20 @@
             gap: 40px 25px;
         }
 
+        &__slider {
+            &-container {
+                gap: 30px;
+            }
+        }
+
+        &__navigation {
+
+            &_prev, &_next {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
         &__card {
             &_img {
                 height: 300px;
@@ -992,6 +1010,90 @@
                 & .row {
                     gap: 30px;
                 }
+            }
+        }
+    }
+
+    .service {
+
+        &__content {
+            gap: 40px 25px;
+        }
+
+        &__points {
+            gap: 20px;
+        }
+
+        &__point {
+
+            &_marker {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        &__bottom {
+            padding: 25px 30px;
+
+            &_title {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .faq {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    
+        & .h2 {
+            margin-top: 0px;
+            margin-bottom: 35px;
+        }
+    
+        & .accordion {
+            
+            &__title {
+    
+                & button {
+                    font-size: 24px;
+
+                    & svg {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .request {
+
+        & .container {
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+    
+        &__content {
+            width: 100%;
+            max-width: 1050px;
+        }
+        
+        &__form {
+    
+            & .form__content {
+                max-height: 250px;
+                gap: 20px;
+            }
+    
+            & input {
+                border-radius: 30px;
+                font-size: 14px;
+                padding: 15px 20px;
+            }
+    
+            &_agree {
+                font-size: 14px;
             }
         }
     }
