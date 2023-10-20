@@ -162,6 +162,7 @@
         flex-grow: 1;
         flex-direction: column;
         gap: 35px;
+        width: 50%;
 
         &.border-block {
             padding: 36px 26px;
@@ -235,8 +236,9 @@
         border-radius: 20px;
         overflow: hidden;
         isolation: isolate;
-        width: calc(50% - 30px);
-        flex-shrink: 0;
+        flex-grow: 0;
+        // width: calc(50% - 30px);
+        // flex-shrink: 0;
 
         & img {
             width: 100%;

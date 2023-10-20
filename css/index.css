@@ -157,6 +157,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 35px;
+  width: 50%;
 }
 .about__text.border-block {
   padding: 36px 26px;
@@ -235,9 +236,9 @@
   border-radius: 20px;
   overflow: hidden;
   isolation: isolate;
-  width: calc(50% - 30px);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
 }
 .about__img img {
   width: 100%;
